@@ -1,0 +1,3044 @@
+{
+  "meta": {
+    "course": "ADTG 220",
+    "exam": "Midterm · LO1–LO5",
+    "sourceNote": "Based on the user-supplied updated syllabus, instructor notes, 5 Messier slide decks, risk scenarios, and 63 yellow-highlighted glossary entries. Unofficial student study aid; questions are new practice questions, not actual exam questions.",
+    "midtermOnly": true,
+    "highlightCount": 63,
+    "cardCount": 91,
+    "questionCount": 94,
+    "questionDistribution": {
+      "LO1": 16,
+      "LO2": 10,
+      "LO3": 27,
+      "LO4": 30,
+      "LO5": 11
+    }
+  },
+  "glossary": [
+    {
+      "id": "g1",
+      "term": "Analytical procedures",
+      "lo": "LO4",
+      "definition": "Evaluations of financial information through analysis of plausible relationships among both financial and non-financial data. Analytical procedures also encompass such investigation as is necessary of identified fluctuations or relationships that are inconsistent with other relevant information or that differ from expected values by a significant amount.",
+      "source": "Highlighted Canadian assurance glossary",
+      "highlighted": true,
+      "later": false
+    },
+    {
+      "id": "g2",
+      "term": "Appropriateness (of audit evidence)",
+      "lo": "LO4",
+      "definition": "The measure of the quality of audit evidence; that is, its relevance and its reliability in providing support for the conclusions on which the auditor's opinion is based.",
+      "source": "Highlighted Canadian assurance glossary",
+      "highlighted": true,
+      "later": false
+    },
+    {
+      "id": "g3",
+      "term": "Assertions",
+      "lo": "LO3 / LO4",
+      "definition": "Representations, explicit or otherwise, with respect to the recognition, measurement, presentation and disclosure of information in the financial statements which are inherent in management representing that the financial statements are prepared in accordance with the applicable financial reporting framework. Assertions are used by the auditor to consider the different types of potential misstatements that may occur when identifying, assessing and responding to the risks of material misstatement. [Former definition retained in Archived Pronouncements.]",
+      "source": "Highlighted Canadian assurance glossary",
+      "highlighted": true,
+      "later": false
+    },
+    {
+      "id": "g4",
+      "term": "Assess",
+      "lo": "LO3",
+      "definition": "Analyze identified risks of material misstatements to conclude on their significance. \"Assess,\" by convention, is used only in relation to risk. (also see Evaluate)",
+      "source": "Highlighted Canadian assurance glossary",
+      "highlighted": true,
+      "later": false
+    },
+    {
+      "id": "g5",
+      "term": "Assurance",
+      "lo": "LO1",
+      "definition": "(see Reasonable assurance)",
+      "source": "Highlighted Canadian assurance glossary",
+      "highlighted": true,
+      "later": false
+    },
+    {
+      "id": "g6",
+      "term": "Audit evidence",
+      "lo": "LO4",
+      "definition": "Information used by the auditor in arriving at the conclusions on which the auditor's opinion is based. Audit evidence includes both information contained in the accounting records underlying the financial statements and other information. (also see Sufficiency of audit evidence and Appropriateness of audit evidence)",
+      "source": "Highlighted Canadian assurance glossary",
+      "highlighted": true,
+      "later": false
+    },
+    {
+      "id": "g7",
+      "term": "Audit file",
+      "lo": "LO4",
+      "definition": "One or more folders or other storage media, in physical or electronic form, containing the records that comprise the audit documentation for a specific engagement.",
+      "source": "Highlighted Canadian assurance glossary",
+      "highlighted": true,
+      "later": false
+    },
+    {
+      "id": "g8",
+      "term": "Audit firm",
+      "lo": "LO1",
+      "definition": "(see Firm)",
+      "source": "Highlighted Canadian assurance glossary",
+      "highlighted": true,
+      "later": false
+    },
+    {
+      "id": "g9",
+      "term": "Audit opinion",
+      "lo": "LO1 / LO11",
+      "definition": "(see Modified opinion and Unmodified opinion)",
+      "source": "Highlighted Canadian assurance glossary",
+      "highlighted": true,
+      "later": false
+    },
+    {
+      "id": "g10",
+      "term": "Audit risk",
+      "lo": "LO3",
+      "definition": "The risk that the auditor expresses an inappropriate audit opinion when the financial statements are materially misstated.",
+      "source": "Highlighted Canadian assurance glossary",
+      "highlighted": true,
+      "later": false
+    },
+    {
+      "id": "g11",
+      "term": "Audit sampling (sampling)",
+      "lo": "LO6",
+      "definition": "The application of audit procedures to less than 100% of items within a population of audit relevance such that all sampling units have a chance of selection in order to provide the auditor with a reasonable basis on which to draw conclusions about the entire population.",
+      "source": "Highlighted Canadian assurance glossary",
+      "highlighted": true,
+      "later": true
+    },
+    {
+      "id": "g12",
+      "term": "Audited financial statements (in the context of CAS 810)",
+      "lo": "LO11",
+      "definition": "Financial statements 3 audited by the auditor in accordance with CASs, and from which the summary financial statements are derived.",
+      "source": "Highlighted Canadian assurance glossary",
+      "highlighted": true,
+      "later": true
+    },
+    {
+      "id": "g13",
+      "term": "Auditor",
+      "lo": "LO1",
+      "definition": "\"Auditor\" is used to refer to the person or persons conducting the audit, usually the engagement partner or other members of the engagement team, or, as applicable, the firm. Where a CAS expressly intends that a requirement or responsibility be fulfilled by the engagement partner, the term \"engagement partner\" rather than \"auditor\" is used. \"Engagement partner\" and \"firm\" are to be read as referring to their public sector equivalents where relevant.",
+      "source": "Highlighted Canadian assurance glossary",
+      "highlighted": true,
+      "later": false
+    },
+    {
+      "id": "g14",
+      "term": "Control risk",
+      "lo": "LO3 / LO5",
+      "definition": "(see Risk of material misstatement)",
+      "source": "Highlighted Canadian assurance glossary",
+      "highlighted": true,
+      "later": false
+    },
+    {
+      "id": "g15",
+      "term": "Deficiency in internal control",
+      "lo": "LO5",
+      "definition": "This exists when:\n(a)     A control is designed, implemented or operated in such a way that it is unable to prevent, or detect and correct, misstatements in the financial statements on a timely basis; or\n(b)     A control necessary to prevent, or detect and correct, misstatements in the financial statements on a timely basis is missing.",
+      "source": "Highlighted Canadian assurance glossary",
+      "highlighted": true,
+      "later": false
+    },
+    {
+      "id": "g16",
+      "term": "Detection risk",
+      "lo": "LO3",
+      "definition": "The risk that the procedures performed by the auditor to reduce audit risk to an acceptably low level will not detect a misstatement that exists and that could be material, either individually or when aggregated with other misstatements.",
+      "source": "Highlighted Canadian assurance glossary",
+      "highlighted": true,
+      "later": false
+    },
+    {
+      "id": "g17",
+      "term": "Engagement letter",
+      "lo": "LO3",
+      "definition": "Written terms of an engagement in the form of a letter.",
+      "source": "Highlighted Canadian assurance glossary",
+      "highlighted": true,
+      "later": false
+    },
+    {
+      "id": "g18",
+      "term": "Engagement risk (in the context of CSRE 2400)",
+      "lo": "LO3 (adjacent)",
+      "definition": "The risk that the practitioner expresses an inappropriate conclusion when the financial statements are materially misstated.",
+      "source": "Highlighted Canadian assurance glossary",
+      "highlighted": true,
+      "later": false
+    },
+    {
+      "id": "g19",
+      "term": "Error",
+      "lo": "LO3",
+      "definition": "An unintentional misstatement in financial statements, including the omission of an amount or a disclosure.",
+      "source": "Highlighted Canadian assurance glossary",
+      "highlighted": true,
+      "later": false
+    },
+    {
+      "id": "g20",
+      "term": "Exception",
+      "lo": "LO4",
+      "definition": "A response that indicates a difference between information requested to be confirmed, or contained in the entity's records, and information provided by the confirming party.",
+      "source": "Highlighted Canadian assurance glossary",
+      "highlighted": true,
+      "later": false
+    },
+    {
+      "id": "g21",
+      "term": "Findings (in relation to a system of quality management)",
+      "lo": "LO2 (adjacent)",
+      "definition": "Information about the design, implementation and operation of the system of quality management that has been accumulated from the performance of monitoring activities, external",
+      "source": "Highlighted Canadian assurance glossary",
+      "highlighted": true,
+      "later": false
+    },
+    {
+      "id": "g22",
+      "term": "Fraud",
+      "lo": "LO1 / LO3",
+      "definition": "An intentional act by one or more individuals among management, those charged with governance, employees, or third parties, involving the use of deception to obtain an unjust or illegal advantage.",
+      "source": "Highlighted Canadian assurance glossary",
+      "highlighted": true,
+      "later": false
+    },
+    {
+      "id": "g23",
+      "term": "Fraud risk factors",
+      "lo": "LO3",
+      "definition": "Events or conditions that indicate an incentive or pressure to commit fraud or provide an opportunity to commit fraud.",
+      "source": "Highlighted Canadian assurance glossary",
+      "highlighted": true,
+      "later": false
+    },
+    {
+      "id": "g24",
+      "term": "General purpose framework",
+      "lo": "LO1 / LO2",
+      "definition": "A financial reporting framework designed to meet the common financial information needs of a wide range of users. The financial reporting framework may be a fair presentation framework or a compliance framework.\nThe term \"fair presentation framework\" is used to refer to a financial reporting framework that requires compliance with the requirements of the framework and:\n(a)     Acknowledges explicitly or implicitly that, to achieve fair presentation of the financial statements, it may be necessary for management to provide disclosures beyond those specifically required by the framework; or\n(b)     Acknowledges explicitly that it may be necessary for management to depart from a requirement of the framework to achieve fair presentation of the financial statements. Such departures are expected to be necessary only in extremely rare circumstances.\nThe term \"compliance framework\" is used to refer to a financial reporting framework that requires compliance with the requirements of the framework, but does not contain the acknowledgments in (a) or (b) above. 10",
+      "source": "Highlighted Canadian assurance glossary",
+      "highlighted": true,
+      "later": false
+    },
+    {
+      "id": "g25",
+      "term": "Independence",
+      "lo": "LO1 / LO2",
+      "definition": "Comprises:\n(a)     Independence of mind – the state of mind that permits the provision of an opinion without being affected by influences that compromise professional judgment, allowing an individual to act with integrity, and exercise objectivity and professional skepticism.\n(b)     Independence in appearance – the avoidance of facts and circumstances that are so significant a reasonable and informed third party, having knowledge of all relevant information, including any safeguards applied, would reasonably conclude a firm's, or a member of the assurance team's, integrity, objectivity or professional skepticism had been compromised.",
+      "source": "Highlighted Canadian assurance glossary",
+      "highlighted": true,
+      "later": false
+    },
+    {
+      "id": "g26",
+      "term": "Inherent risk",
+      "lo": "LO3",
+      "definition": "(see Risk of material misstatement)",
+      "source": "Highlighted Canadian assurance glossary",
+      "highlighted": true,
+      "later": false
+    },
+    {
+      "id": "g27",
+      "term": "Inquiry",
+      "lo": "LO4",
+      "definition": "Inquiry consists of seeking information of knowledgeable persons, both financial and non-financial, within the entity or outside the entity.",
+      "source": "Highlighted Canadian assurance glossary",
+      "highlighted": true,
+      "later": false
+    },
+    {
+      "id": "g28",
+      "term": "Inspection (as an audit procedure)",
+      "lo": "LO4",
+      "definition": "Examining records or documents, whether internal or external, in paper form, electronic form, or other media, or a physical examination of an asset.",
+      "source": "Highlighted Canadian assurance glossary",
+      "highlighted": true,
+      "later": false
+    },
+    {
+      "id": "g29",
+      "term": "Internal audit function",
+      "lo": "LO1 / LO5",
+      "definition": "A function of an entity that performs assurance and consulting activities designed to evaluate and improve the effectiveness of the entity's governance, risk management and internal control processes.",
+      "source": "Highlighted Canadian assurance glossary",
+      "highlighted": true,
+      "later": false
+    },
+    {
+      "id": "g30",
+      "term": "Internal auditors",
+      "lo": "LO1 / LO5",
+      "definition": "Those individuals who perform the activities of the internal audit function. Internal auditors may belong to an internal audit department or equivalent function.",
+      "source": "Highlighted Canadian assurance glossary",
+      "highlighted": true,
+      "later": false
+    },
+    {
+      "id": "g31",
+      "term": "Internal control",
+      "lo": "LO5",
+      "definition": "The process designed, implemented and maintained by those charged with governance, management and other personnel to provide reasonable assurance about the achievement of an entity's objectives with regard to reliability of financial reporting, effectiveness and efficiency of operations, and compliance with applicable laws and regulations. The term \"controls\" refers to any aspects of one or more of the components of internal control.",
+      "source": "Highlighted Canadian assurance glossary",
+      "highlighted": true,
+      "later": false
+    },
+    {
+      "id": "g32",
+      "term": "Investigate",
+      "lo": "LO4",
+      "definition": "Inquire into matters arising from other procedures to resolve them.",
+      "source": "Highlighted Canadian assurance glossary",
+      "highlighted": true,
+      "later": false
+    },
+    {
+      "id": "g33",
+      "term": "Management",
+      "lo": "LO1",
+      "definition": "The person(s) with executive responsibility for the conduct of the entity's operations. For some entities in some jurisdictions, management includes some or all of those charged with governance, for example, executive members of a governance board, or an owner-manager.",
+      "source": "Highlighted Canadian assurance glossary",
+      "highlighted": true,
+      "later": false
+    },
+    {
+      "id": "g34",
+      "term": "Management bias",
+      "lo": "LO3",
+      "definition": "A lack of neutrality by management in the preparation of information.",
+      "source": "Highlighted Canadian assurance glossary",
+      "highlighted": true,
+      "later": false
+    },
+    {
+      "id": "g35",
+      "term": "Misstatement",
+      "lo": "LO3",
+      "definition": "A difference between the reported amount, classification, presentation, or disclosure of a financial statement item and the amount, classification, presentation, or disclosure that is required for the item to be in accordance with the applicable financial reporting framework. Misstatements can arise from error or fraud.",
+      "source": "Highlighted Canadian assurance glossary",
+      "highlighted": true,
+      "later": false
+    },
+    {
+      "id": "g36",
+      "term": "Monitoring of controls",
+      "lo": "LO5",
+      "definition": "A process to assess the effectiveness of internal control performance over time. It includes assessing the design and operation of controls on a timely basis and taking necessary corrective actions modified for changes in conditions. Monitoring of controls is a component of internal control.",
+      "source": "Highlighted Canadian assurance glossary",
+      "highlighted": true,
+      "later": false
+    },
+    {
+      "id": "g37",
+      "term": "Non-sampling risk",
+      "lo": "LO3 / LO6",
+      "definition": "The risk that the auditor reaches an erroneous conclusion for any reason not related to sampling risk.",
+      "source": "Highlighted Canadian assurance glossary",
+      "highlighted": true,
+      "later": false
+    },
+    {
+      "id": "g38",
+      "term": "Observation",
+      "lo": "LO4",
+      "definition": "Consists of looking at a process or procedure being performed by others, for example, the auditor's observation of the inventory counting by the entity's personnel, or of the performance of control activities.",
+      "source": "Highlighted Canadian assurance glossary",
+      "highlighted": true,
+      "later": false
+    },
+    {
+      "id": "g39",
+      "term": "Overall audit strategy",
+      "lo": "LO3",
+      "definition": "Sets the scope, timing and direction of the audit, and guides the development of the more detailed audit plan.",
+      "source": "Highlighted Canadian assurance glossary",
+      "highlighted": true,
+      "later": false
+    },
+    {
+      "id": "g40",
+      "term": "Pervasive",
+      "lo": "LO11",
+      "definition": "A term used, in the context of misstatements, to describe the effects on the financial statements of misstatements or the possible effects on the financial statements of misstatements, if any, that are undetected due to an inability to obtain sufficient appropriate audit evidence. Pervasive effects on the financial statements are those that, in the auditor's judgment:\n(a)     Are not confined to specific elements, accounts or items of the financial statements;\n(b)     If so confined, represent or could represent a substantial proportion of the financial statements; or\n(c)     In relation to disclosures, are fundamental to users' understanding of the financial statements.",
+      "source": "Highlighted Canadian assurance glossary",
+      "highlighted": true,
+      "later": true
+    },
+    {
+      "id": "g41",
+      "term": "Population",
+      "lo": "LO6",
+      "definition": "The entire set of data from which a sample is selected and about which the auditor wishes to draw conclusions",
+      "source": "Highlighted Canadian assurance glossary",
+      "highlighted": true,
+      "later": true
+    },
+    {
+      "id": "g42",
+      "term": "Positive confirmation request",
+      "lo": "LO4",
+      "definition": "A request that the confirming party respond directly to the auditor indicating whether the confirming party agrees or disagrees with the information in the request, or providing the requested information.",
+      "source": "Highlighted Canadian assurance glossary",
+      "highlighted": true,
+      "later": false
+    },
+    {
+      "id": "g43",
+      "term": "Professional accountant",
+      "lo": "LO1 / LO2",
+      "definition": "An individual who is a member of an IFAC member body.",
+      "source": "Highlighted Canadian assurance glossary",
+      "highlighted": true,
+      "later": false
+    },
+    {
+      "id": "g44",
+      "term": "Professional judgment (in the context of the CASs)",
+      "lo": "LO1 / LO2",
+      "definition": "The application of relevant training, knowledge and experience, within the context provided by auditing, accounting and ethical standards, in making informed decisions about the courses of action that are appropriate in the circumstances of the audit engagement.",
+      "source": "Highlighted Canadian assurance glossary",
+      "highlighted": true,
+      "later": false
+    },
+    {
+      "id": "g45",
+      "term": "Professional skepticism",
+      "lo": "LO1 / LO2",
+      "definition": "An attitude that includes a questioning mind, being alert to conditions which may indicate possible misstatement due to error or fraud, and a critical assessment of evidence.",
+      "source": "Highlighted Canadian assurance glossary",
+      "highlighted": true,
+      "later": false
+    },
+    {
+      "id": "g46",
+      "term": "Reasonable assurance (in the context of an audit of financial statements and CSQM 1)",
+      "lo": "LO1",
+      "definition": "A high, but not absolute, level of assurance.",
+      "source": "Highlighted Canadian assurance glossary",
+      "highlighted": true,
+      "later": false
+    },
+    {
+      "id": "g47",
+      "term": "Recalculation",
+      "lo": "LO4",
+      "definition": "Consists of checking the mathematical accuracy of documents or records.",
+      "source": "Highlighted Canadian assurance glossary",
+      "highlighted": true,
+      "later": false
+    },
+    {
+      "id": "g48",
+      "term": "Reperformance",
+      "lo": "LO4 / LO5",
+      "definition": "The auditor's independent execution of procedures or controls that were originally performed as part of the entity's internal controls.",
+      "source": "Highlighted Canadian assurance glossary",
+      "highlighted": true,
+      "later": false
+    },
+    {
+      "id": "g49",
+      "term": "Review (in relation to quality control)",
+      "lo": "LO2 (adjacent)",
+      "definition": "Appraising the quality of the work performed and conclusions reached by others.",
+      "source": "Highlighted Canadian assurance glossary",
+      "highlighted": true,
+      "later": false
+    },
+    {
+      "id": "g50",
+      "term": "Risk assessment procedures",
+      "lo": "LO3",
+      "definition": "The audit procedures designed and performed to identify and assess the risks of material misstatement, whether due to fraud or error, at the financial statement and assertion levels. [Former definition retained in Archived Pronouncements.]",
+      "source": "Highlighted Canadian assurance glossary",
+      "highlighted": true,
+      "later": false
+    },
+    {
+      "id": "g51",
+      "term": "Risk of material misstatement",
+      "lo": "LO3",
+      "definition": "The risk that the financial statements are materially misstated prior to audit. This consists of two components, described as follows at the assertion level:\n(a)     Inherent risk – The susceptibility of an assertion about a class of transaction, account balance or disclosure to a misstatement that could be material, either individually or when aggregated with other misstatements, before consideration of any related controls.\n(b)     Control risk – The risk that a misstatement that could occur in an assertion about a class of transactions, account balance or disclosure and that could be material, either individually or when aggregated with other misstatements, will not be prevented, or detected and corrected, on a timely basis by the entity's controls.\n[Former definition retained in Archived Pronouncements.]",
+      "source": "Highlighted Canadian assurance glossary",
+      "highlighted": true,
+      "later": false
+    },
+    {
+      "id": "g52",
+      "term": "Sampling",
+      "lo": "LO6",
+      "definition": "(see Audit sampling)",
+      "source": "Highlighted Canadian assurance glossary",
+      "highlighted": true,
+      "later": true
+    },
+    {
+      "id": "g53",
+      "term": "Sampling risk",
+      "lo": "LO6",
+      "definition": "The risk that the auditor's conclusion based on a sample may be different from the conclusion if the entire population were subjected to the same audit procedure. Sampling risk can lead to two types of erroneous conclusions:\n(a)     In the case of a test of controls, that controls are more effective than they actually are, or in the case of a test of details, that a material misstatement does not exist when in fact it does. The auditor is primarily concerned with this type of erroneous conclusion because it affects audit effectiveness and is more likely to lead to an inappropriate audit opinion.\n(b)     In the case of a test of controls, that controls are less effective than they actually are, or in the case of a test of details, that a material misstatement exists when in fact it does not. This type of erroneous conclusion affects audit efficiency as it would usually lead to additional work to establish that initial conclusions were incorrect.",
+      "source": "Highlighted Canadian assurance glossary",
+      "highlighted": true,
+      "later": true
+    },
+    {
+      "id": "g54",
+      "term": "Sampling unit",
+      "lo": "LO6",
+      "definition": "The individual items constituting a population.",
+      "source": "Highlighted Canadian assurance glossary",
+      "highlighted": true,
+      "later": true
+    },
+    {
+      "id": "g55",
+      "term": "Statistical sampling",
+      "lo": "LO6",
+      "definition": "An approach to sampling that has the following characteristics:\n(a)     Random selection of the sample items; and\n(b)     The use of probability theory to evaluate sample results, including measurement of sampling risk.\nA sampling approach that does not have characteristics (a) and (b) is considered non-statistical sampling.",
+      "source": "Highlighted Canadian assurance glossary",
+      "highlighted": true,
+      "later": true
+    },
+    {
+      "id": "g56",
+      "term": "Subsequent events",
+      "lo": "LO11",
+      "definition": "Events occurring between the date of the financial statements and the date of the auditor's report, and facts that become known to the auditor after the date of the auditor's report.",
+      "source": "Highlighted Canadian assurance glossary",
+      "highlighted": true,
+      "later": true
+    },
+    {
+      "id": "g57",
+      "term": "Substantive procedure",
+      "lo": "LO3 / LO4",
+      "definition": "An audit procedure designed to detect material misstatements at the assertion level. Substantive procedures comprise:\n(a)     Tests of details (of classes of transactions, account balances, and disclosures); and\n(b)     Substantive analytical procedures.",
+      "source": "Highlighted Canadian assurance glossary",
+      "highlighted": true,
+      "later": false
+    },
+    {
+      "id": "g58",
+      "term": "Sufficiency (of audit evidence)",
+      "lo": "LO4",
+      "definition": "The measure of the quantity of audit evidence. The quantity of the audit evidence needed is affected by the auditor's assessment of the risks of material misstatement and also by the quality of such audit evidence.",
+      "source": "Highlighted Canadian assurance glossary",
+      "highlighted": true,
+      "later": false
+    },
+    {
+      "id": "g59",
+      "term": "System of quality management",
+      "lo": "LO2 (adjacent)",
+      "definition": "A system designed, implemented and operated by a firm to provide the firm with reasonable assurance that:\n(i)     The firm and its personnel fulfill their responsibilities in accordance with professional standards and applicable legal and regulatory requirements, and conduct engagements in accordance with such standards and requirements; and\n(ii)    Engagement reports issued by the firm or engagement partners are appropriate in the circumstances.",
+      "source": "Highlighted Canadian assurance glossary",
+      "highlighted": true,
+      "later": false
+    },
+    {
+      "id": "g60",
+      "term": "Test",
+      "lo": "LO4 / LO5",
+      "definition": "The application of procedures to some or all items in a population.",
+      "source": "Highlighted Canadian assurance glossary",
+      "highlighted": true,
+      "later": false
+    },
+    {
+      "id": "g61",
+      "term": "Tests of controls",
+      "lo": "LO5",
+      "definition": "An audit procedure designed to evaluate the operating effectiveness of controls in preventing, or detecting and correcting, material misstatements at the assertion level.",
+      "source": "Highlighted Canadian assurance glossary",
+      "highlighted": true,
+      "later": false
+    },
+    {
+      "id": "g62",
+      "term": "Tolerable rate of deviation",
+      "lo": "LO6",
+      "definition": "A rate of deviation from prescribed internal control procedures set by the auditor in respect of which the auditor seeks to obtain an appropriate level of assurance that the rate of deviation set by the auditor is not exceeded by the actual rate of deviation in the population.",
+      "source": "Highlighted Canadian assurance glossary",
+      "highlighted": true,
+      "later": true
+    },
+    {
+      "id": "g63",
+      "term": "Unmodified opinion",
+      "lo": "LO11",
+      "definition": "The opinion expressed by the auditor when the auditor concludes that the financial statements are prepared, in all material respects, in accordance with the applicable financial reporting framework. 19\nThe source contained 87 paragraphs with a yellow-highlight run. One was empty. The remaining 86 non-empty highlighted paragraphs form 63 glossary entries. All 63 are reproduced above, including their highlighted subordinate paragraphs.\nThe companion study guide explains and applies the midterm-relevant concepts using the instructor’s notes and slide decks.",
+      "source": "Highlighted Canadian assurance glossary",
+      "highlighted": true,
+      "later": true
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "g1",
+      "term": "Analytical procedures",
+      "lo": "LO4",
+      "definition": "Evaluations of financial information through analysis of plausible relationships among both financial and non-financial data. Analytical procedures also encompass such investigation as is necessary of identified fluctuations or relationships that are inconsistent with other relevant information or that differ from expected values by a significant amount.",
+      "source": "Highlighted Canadian assurance glossary",
+      "highlighted": true,
+      "later": false
+    },
+    {
+      "id": "g2",
+      "term": "Appropriateness (of audit evidence)",
+      "lo": "LO4",
+      "definition": "The measure of the quality of audit evidence; that is, its relevance and its reliability in providing support for the conclusions on which the auditor's opinion is based.",
+      "source": "Highlighted Canadian assurance glossary",
+      "highlighted": true,
+      "later": false
+    },
+    {
+      "id": "g3",
+      "term": "Assertions",
+      "lo": "LO3 / LO4",
+      "definition": "Representations, explicit or otherwise, with respect to the recognition, measurement, presentation and disclosure of information in the financial statements which are inherent in management representing that the financial statements are prepared in accordance with the applicable financial reporting framework. Assertions are used by the auditor to consider the different types of potential misstatements that may occur when identifying, assessing and responding to the risks of material misstatement. [Former definition retained in Archived Pronouncements.]",
+      "source": "Highlighted Canadian assurance glossary",
+      "highlighted": true,
+      "later": false
+    },
+    {
+      "id": "g4",
+      "term": "Assess",
+      "lo": "LO3",
+      "definition": "Analyze identified risks of material misstatements to conclude on their significance. \"Assess,\" by convention, is used only in relation to risk. (also see Evaluate)",
+      "source": "Highlighted Canadian assurance glossary",
+      "highlighted": true,
+      "later": false
+    },
+    {
+      "id": "g5",
+      "term": "Assurance",
+      "lo": "LO1",
+      "definition": "(see Reasonable assurance)",
+      "source": "Highlighted Canadian assurance glossary",
+      "highlighted": true,
+      "later": false
+    },
+    {
+      "id": "g6",
+      "term": "Audit evidence",
+      "lo": "LO4",
+      "definition": "Information used by the auditor in arriving at the conclusions on which the auditor's opinion is based. Audit evidence includes both information contained in the accounting records underlying the financial statements and other information. (also see Sufficiency of audit evidence and Appropriateness of audit evidence)",
+      "source": "Highlighted Canadian assurance glossary",
+      "highlighted": true,
+      "later": false
+    },
+    {
+      "id": "g7",
+      "term": "Audit file",
+      "lo": "LO4",
+      "definition": "One or more folders or other storage media, in physical or electronic form, containing the records that comprise the audit documentation for a specific engagement.",
+      "source": "Highlighted Canadian assurance glossary",
+      "highlighted": true,
+      "later": false
+    },
+    {
+      "id": "g8",
+      "term": "Audit firm",
+      "lo": "LO1",
+      "definition": "(see Firm)",
+      "source": "Highlighted Canadian assurance glossary",
+      "highlighted": true,
+      "later": false
+    },
+    {
+      "id": "g9",
+      "term": "Audit opinion",
+      "lo": "LO1 / LO11",
+      "definition": "(see Modified opinion and Unmodified opinion)",
+      "source": "Highlighted Canadian assurance glossary",
+      "highlighted": true,
+      "later": false
+    },
+    {
+      "id": "g10",
+      "term": "Audit risk",
+      "lo": "LO3",
+      "definition": "The risk that the auditor expresses an inappropriate audit opinion when the financial statements are materially misstated.",
+      "source": "Highlighted Canadian assurance glossary",
+      "highlighted": true,
+      "later": false
+    },
+    {
+      "id": "g11",
+      "term": "Audit sampling (sampling)",
+      "lo": "LO6",
+      "definition": "The application of audit procedures to less than 100% of items within a population of audit relevance such that all sampling units have a chance of selection in order to provide the auditor with a reasonable basis on which to draw conclusions about the entire population.",
+      "source": "Highlighted Canadian assurance glossary",
+      "highlighted": true,
+      "later": true
+    },
+    {
+      "id": "g12",
+      "term": "Audited financial statements (in the context of CAS 810)",
+      "lo": "LO11",
+      "definition": "Financial statements 3 audited by the auditor in accordance with CASs, and from which the summary financial statements are derived.",
+      "source": "Highlighted Canadian assurance glossary",
+      "highlighted": true,
+      "later": true
+    },
+    {
+      "id": "g13",
+      "term": "Auditor",
+      "lo": "LO1",
+      "definition": "\"Auditor\" is used to refer to the person or persons conducting the audit, usually the engagement partner or other members of the engagement team, or, as applicable, the firm. Where a CAS expressly intends that a requirement or responsibility be fulfilled by the engagement partner, the term \"engagement partner\" rather than \"auditor\" is used. \"Engagement partner\" and \"firm\" are to be read as referring to their public sector equivalents where relevant.",
+      "source": "Highlighted Canadian assurance glossary",
+      "highlighted": true,
+      "later": false
+    },
+    {
+      "id": "g14",
+      "term": "Control risk",
+      "lo": "LO3 / LO5",
+      "definition": "(see Risk of material misstatement)",
+      "source": "Highlighted Canadian assurance glossary",
+      "highlighted": true,
+      "later": false
+    },
+    {
+      "id": "g15",
+      "term": "Deficiency in internal control",
+      "lo": "LO5",
+      "definition": "This exists when:\n(a)     A control is designed, implemented or operated in such a way that it is unable to prevent, or detect and correct, misstatements in the financial statements on a timely basis; or\n(b)     A control necessary to prevent, or detect and correct, misstatements in the financial statements on a timely basis is missing.",
+      "source": "Highlighted Canadian assurance glossary",
+      "highlighted": true,
+      "later": false
+    },
+    {
+      "id": "g16",
+      "term": "Detection risk",
+      "lo": "LO3",
+      "definition": "The risk that the procedures performed by the auditor to reduce audit risk to an acceptably low level will not detect a misstatement that exists and that could be material, either individually or when aggregated with other misstatements.",
+      "source": "Highlighted Canadian assurance glossary",
+      "highlighted": true,
+      "later": false
+    },
+    {
+      "id": "g17",
+      "term": "Engagement letter",
+      "lo": "LO3",
+      "definition": "Written terms of an engagement in the form of a letter.",
+      "source": "Highlighted Canadian assurance glossary",
+      "highlighted": true,
+      "later": false
+    },
+    {
+      "id": "g18",
+      "term": "Engagement risk (in the context of CSRE 2400)",
+      "lo": "LO3 (adjacent)",
+      "definition": "The risk that the practitioner expresses an inappropriate conclusion when the financial statements are materially misstated.",
+      "source": "Highlighted Canadian assurance glossary",
+      "highlighted": true,
+      "later": false
+    },
+    {
+      "id": "g19",
+      "term": "Error",
+      "lo": "LO3",
+      "definition": "An unintentional misstatement in financial statements, including the omission of an amount or a disclosure.",
+      "source": "Highlighted Canadian assurance glossary",
+      "highlighted": true,
+      "later": false
+    },
+    {
+      "id": "g20",
+      "term": "Exception",
+      "lo": "LO4",
+      "definition": "A response that indicates a difference between information requested to be confirmed, or contained in the entity's records, and information provided by the confirming party.",
+      "source": "Highlighted Canadian assurance glossary",
+      "highlighted": true,
+      "later": false
+    },
+    {
+      "id": "g21",
+      "term": "Findings (in relation to a system of quality management)",
+      "lo": "LO2 (adjacent)",
+      "definition": "Information about the design, implementation and operation of the system of quality management that has been accumulated from the performance of monitoring activities, external",
+      "source": "Highlighted Canadian assurance glossary",
+      "highlighted": true,
+      "later": false
+    },
+    {
+      "id": "g22",
+      "term": "Fraud",
+      "lo": "LO1 / LO3",
+      "definition": "An intentional act by one or more individuals among management, those charged with governance, employees, or third parties, involving the use of deception to obtain an unjust or illegal advantage.",
+      "source": "Highlighted Canadian assurance glossary",
+      "highlighted": true,
+      "later": false
+    },
+    {
+      "id": "g23",
+      "term": "Fraud risk factors",
+      "lo": "LO3",
+      "definition": "Events or conditions that indicate an incentive or pressure to commit fraud or provide an opportunity to commit fraud.",
+      "source": "Highlighted Canadian assurance glossary",
+      "highlighted": true,
+      "later": false
+    },
+    {
+      "id": "g24",
+      "term": "General purpose framework",
+      "lo": "LO1 / LO2",
+      "definition": "A financial reporting framework designed to meet the common financial information needs of a wide range of users. The financial reporting framework may be a fair presentation framework or a compliance framework.\nThe term \"fair presentation framework\" is used to refer to a financial reporting framework that requires compliance with the requirements of the framework and:\n(a)     Acknowledges explicitly or implicitly that, to achieve fair presentation of the financial statements, it may be necessary for management to provide disclosures beyond those specifically required by the framework; or\n(b)     Acknowledges explicitly that it may be necessary for management to depart from a requirement of the framework to achieve fair presentation of the financial statements. Such departures are expected to be necessary only in extremely rare circumstances.\nThe term \"compliance framework\" is used to refer to a financial reporting framework that requires compliance with the requirements of the framework, but does not contain the acknowledgments in (a) or (b) above. 10",
+      "source": "Highlighted Canadian assurance glossary",
+      "highlighted": true,
+      "later": false
+    },
+    {
+      "id": "g25",
+      "term": "Independence",
+      "lo": "LO1 / LO2",
+      "definition": "Comprises:\n(a)     Independence of mind – the state of mind that permits the provision of an opinion without being affected by influences that compromise professional judgment, allowing an individual to act with integrity, and exercise objectivity and professional skepticism.\n(b)     Independence in appearance – the avoidance of facts and circumstances that are so significant a reasonable and informed third party, having knowledge of all relevant information, including any safeguards applied, would reasonably conclude a firm's, or a member of the assurance team's, integrity, objectivity or professional skepticism had been compromised.",
+      "source": "Highlighted Canadian assurance glossary",
+      "highlighted": true,
+      "later": false
+    },
+    {
+      "id": "g26",
+      "term": "Inherent risk",
+      "lo": "LO3",
+      "definition": "(see Risk of material misstatement)",
+      "source": "Highlighted Canadian assurance glossary",
+      "highlighted": true,
+      "later": false
+    },
+    {
+      "id": "g27",
+      "term": "Inquiry",
+      "lo": "LO4",
+      "definition": "Inquiry consists of seeking information of knowledgeable persons, both financial and non-financial, within the entity or outside the entity.",
+      "source": "Highlighted Canadian assurance glossary",
+      "highlighted": true,
+      "later": false
+    },
+    {
+      "id": "g28",
+      "term": "Inspection (as an audit procedure)",
+      "lo": "LO4",
+      "definition": "Examining records or documents, whether internal or external, in paper form, electronic form, or other media, or a physical examination of an asset.",
+      "source": "Highlighted Canadian assurance glossary",
+      "highlighted": true,
+      "later": false
+    },
+    {
+      "id": "g29",
+      "term": "Internal audit function",
+      "lo": "LO1 / LO5",
+      "definition": "A function of an entity that performs assurance and consulting activities designed to evaluate and improve the effectiveness of the entity's governance, risk management and internal control processes.",
+      "source": "Highlighted Canadian assurance glossary",
+      "highlighted": true,
+      "later": false
+    },
+    {
+      "id": "g30",
+      "term": "Internal auditors",
+      "lo": "LO1 / LO5",
+      "definition": "Those individuals who perform the activities of the internal audit function. Internal auditors may belong to an internal audit department or equivalent function.",
+      "source": "Highlighted Canadian assurance glossary",
+      "highlighted": true,
+      "later": false
+    },
+    {
+      "id": "g31",
+      "term": "Internal control",
+      "lo": "LO5",
+      "definition": "The process designed, implemented and maintained by those charged with governance, management and other personnel to provide reasonable assurance about the achievement of an entity's objectives with regard to reliability of financial reporting, effectiveness and efficiency of operations, and compliance with applicable laws and regulations. The term \"controls\" refers to any aspects of one or more of the components of internal control.",
+      "source": "Highlighted Canadian assurance glossary",
+      "highlighted": true,
+      "later": false
+    },
+    {
+      "id": "g32",
+      "term": "Investigate",
+      "lo": "LO4",
+      "definition": "Inquire into matters arising from other procedures to resolve them.",
+      "source": "Highlighted Canadian assurance glossary",
+      "highlighted": true,
+      "later": false
+    },
+    {
+      "id": "g33",
+      "term": "Management",
+      "lo": "LO1",
+      "definition": "The person(s) with executive responsibility for the conduct of the entity's operations. For some entities in some jurisdictions, management includes some or all of those charged with governance, for example, executive members of a governance board, or an owner-manager.",
+      "source": "Highlighted Canadian assurance glossary",
+      "highlighted": true,
+      "later": false
+    },
+    {
+      "id": "g34",
+      "term": "Management bias",
+      "lo": "LO3",
+      "definition": "A lack of neutrality by management in the preparation of information.",
+      "source": "Highlighted Canadian assurance glossary",
+      "highlighted": true,
+      "later": false
+    },
+    {
+      "id": "g35",
+      "term": "Misstatement",
+      "lo": "LO3",
+      "definition": "A difference between the reported amount, classification, presentation, or disclosure of a financial statement item and the amount, classification, presentation, or disclosure that is required for the item to be in accordance with the applicable financial reporting framework. Misstatements can arise from error or fraud.",
+      "source": "Highlighted Canadian assurance glossary",
+      "highlighted": true,
+      "later": false
+    },
+    {
+      "id": "g36",
+      "term": "Monitoring of controls",
+      "lo": "LO5",
+      "definition": "A process to assess the effectiveness of internal control performance over time. It includes assessing the design and operation of controls on a timely basis and taking necessary corrective actions modified for changes in conditions. Monitoring of controls is a component of internal control.",
+      "source": "Highlighted Canadian assurance glossary",
+      "highlighted": true,
+      "later": false
+    },
+    {
+      "id": "g37",
+      "term": "Non-sampling risk",
+      "lo": "LO3 / LO6",
+      "definition": "The risk that the auditor reaches an erroneous conclusion for any reason not related to sampling risk.",
+      "source": "Highlighted Canadian assurance glossary",
+      "highlighted": true,
+      "later": false
+    },
+    {
+      "id": "g38",
+      "term": "Observation",
+      "lo": "LO4",
+      "definition": "Consists of looking at a process or procedure being performed by others, for example, the auditor's observation of the inventory counting by the entity's personnel, or of the performance of control activities.",
+      "source": "Highlighted Canadian assurance glossary",
+      "highlighted": true,
+      "later": false
+    },
+    {
+      "id": "g39",
+      "term": "Overall audit strategy",
+      "lo": "LO3",
+      "definition": "Sets the scope, timing and direction of the audit, and guides the development of the more detailed audit plan.",
+      "source": "Highlighted Canadian assurance glossary",
+      "highlighted": true,
+      "later": false
+    },
+    {
+      "id": "g40",
+      "term": "Pervasive",
+      "lo": "LO11",
+      "definition": "A term used, in the context of misstatements, to describe the effects on the financial statements of misstatements or the possible effects on the financial statements of misstatements, if any, that are undetected due to an inability to obtain sufficient appropriate audit evidence. Pervasive effects on the financial statements are those that, in the auditor's judgment:\n(a)     Are not confined to specific elements, accounts or items of the financial statements;\n(b)     If so confined, represent or could represent a substantial proportion of the financial statements; or\n(c)     In relation to disclosures, are fundamental to users' understanding of the financial statements.",
+      "source": "Highlighted Canadian assurance glossary",
+      "highlighted": true,
+      "later": true
+    },
+    {
+      "id": "g41",
+      "term": "Population",
+      "lo": "LO6",
+      "definition": "The entire set of data from which a sample is selected and about which the auditor wishes to draw conclusions",
+      "source": "Highlighted Canadian assurance glossary",
+      "highlighted": true,
+      "later": true
+    },
+    {
+      "id": "g42",
+      "term": "Positive confirmation request",
+      "lo": "LO4",
+      "definition": "A request that the confirming party respond directly to the auditor indicating whether the confirming party agrees or disagrees with the information in the request, or providing the requested information.",
+      "source": "Highlighted Canadian assurance glossary",
+      "highlighted": true,
+      "later": false
+    },
+    {
+      "id": "g43",
+      "term": "Professional accountant",
+      "lo": "LO1 / LO2",
+      "definition": "An individual who is a member of an IFAC member body.",
+      "source": "Highlighted Canadian assurance glossary",
+      "highlighted": true,
+      "later": false
+    },
+    {
+      "id": "g44",
+      "term": "Professional judgment (in the context of the CASs)",
+      "lo": "LO1 / LO2",
+      "definition": "The application of relevant training, knowledge and experience, within the context provided by auditing, accounting and ethical standards, in making informed decisions about the courses of action that are appropriate in the circumstances of the audit engagement.",
+      "source": "Highlighted Canadian assurance glossary",
+      "highlighted": true,
+      "later": false
+    },
+    {
+      "id": "g45",
+      "term": "Professional skepticism",
+      "lo": "LO1 / LO2",
+      "definition": "An attitude that includes a questioning mind, being alert to conditions which may indicate possible misstatement due to error or fraud, and a critical assessment of evidence.",
+      "source": "Highlighted Canadian assurance glossary",
+      "highlighted": true,
+      "later": false
+    },
+    {
+      "id": "g46",
+      "term": "Reasonable assurance (in the context of an audit of financial statements and CSQM 1)",
+      "lo": "LO1",
+      "definition": "A high, but not absolute, level of assurance.",
+      "source": "Highlighted Canadian assurance glossary",
+      "highlighted": true,
+      "later": false
+    },
+    {
+      "id": "g47",
+      "term": "Recalculation",
+      "lo": "LO4",
+      "definition": "Consists of checking the mathematical accuracy of documents or records.",
+      "source": "Highlighted Canadian assurance glossary",
+      "highlighted": true,
+      "later": false
+    },
+    {
+      "id": "g48",
+      "term": "Reperformance",
+      "lo": "LO4 / LO5",
+      "definition": "The auditor's independent execution of procedures or controls that were originally performed as part of the entity's internal controls.",
+      "source": "Highlighted Canadian assurance glossary",
+      "highlighted": true,
+      "later": false
+    },
+    {
+      "id": "g49",
+      "term": "Review (in relation to quality control)",
+      "lo": "LO2 (adjacent)",
+      "definition": "Appraising the quality of the work performed and conclusions reached by others.",
+      "source": "Highlighted Canadian assurance glossary",
+      "highlighted": true,
+      "later": false
+    },
+    {
+      "id": "g50",
+      "term": "Risk assessment procedures",
+      "lo": "LO3",
+      "definition": "The audit procedures designed and performed to identify and assess the risks of material misstatement, whether due to fraud or error, at the financial statement and assertion levels. [Former definition retained in Archived Pronouncements.]",
+      "source": "Highlighted Canadian assurance glossary",
+      "highlighted": true,
+      "later": false
+    },
+    {
+      "id": "g51",
+      "term": "Risk of material misstatement",
+      "lo": "LO3",
+      "definition": "The risk that the financial statements are materially misstated prior to audit. This consists of two components, described as follows at the assertion level:\n(a)     Inherent risk – The susceptibility of an assertion about a class of transaction, account balance or disclosure to a misstatement that could be material, either individually or when aggregated with other misstatements, before consideration of any related controls.\n(b)     Control risk – The risk that a misstatement that could occur in an assertion about a class of transactions, account balance or disclosure and that could be material, either individually or when aggregated with other misstatements, will not be prevented, or detected and corrected, on a timely basis by the entity's controls.\n[Former definition retained in Archived Pronouncements.]",
+      "source": "Highlighted Canadian assurance glossary",
+      "highlighted": true,
+      "later": false
+    },
+    {
+      "id": "g52",
+      "term": "Sampling",
+      "lo": "LO6",
+      "definition": "(see Audit sampling)",
+      "source": "Highlighted Canadian assurance glossary",
+      "highlighted": true,
+      "later": true
+    },
+    {
+      "id": "g53",
+      "term": "Sampling risk",
+      "lo": "LO6",
+      "definition": "The risk that the auditor's conclusion based on a sample may be different from the conclusion if the entire population were subjected to the same audit procedure. Sampling risk can lead to two types of erroneous conclusions:\n(a)     In the case of a test of controls, that controls are more effective than they actually are, or in the case of a test of details, that a material misstatement does not exist when in fact it does. The auditor is primarily concerned with this type of erroneous conclusion because it affects audit effectiveness and is more likely to lead to an inappropriate audit opinion.\n(b)     In the case of a test of controls, that controls are less effective than they actually are, or in the case of a test of details, that a material misstatement exists when in fact it does not. This type of erroneous conclusion affects audit efficiency as it would usually lead to additional work to establish that initial conclusions were incorrect.",
+      "source": "Highlighted Canadian assurance glossary",
+      "highlighted": true,
+      "later": true
+    },
+    {
+      "id": "g54",
+      "term": "Sampling unit",
+      "lo": "LO6",
+      "definition": "The individual items constituting a population.",
+      "source": "Highlighted Canadian assurance glossary",
+      "highlighted": true,
+      "later": true
+    },
+    {
+      "id": "g55",
+      "term": "Statistical sampling",
+      "lo": "LO6",
+      "definition": "An approach to sampling that has the following characteristics:\n(a)     Random selection of the sample items; and\n(b)     The use of probability theory to evaluate sample results, including measurement of sampling risk.\nA sampling approach that does not have characteristics (a) and (b) is considered non-statistical sampling.",
+      "source": "Highlighted Canadian assurance glossary",
+      "highlighted": true,
+      "later": true
+    },
+    {
+      "id": "g56",
+      "term": "Subsequent events",
+      "lo": "LO11",
+      "definition": "Events occurring between the date of the financial statements and the date of the auditor's report, and facts that become known to the auditor after the date of the auditor's report.",
+      "source": "Highlighted Canadian assurance glossary",
+      "highlighted": true,
+      "later": true
+    },
+    {
+      "id": "g57",
+      "term": "Substantive procedure",
+      "lo": "LO3 / LO4",
+      "definition": "An audit procedure designed to detect material misstatements at the assertion level. Substantive procedures comprise:\n(a)     Tests of details (of classes of transactions, account balances, and disclosures); and\n(b)     Substantive analytical procedures.",
+      "source": "Highlighted Canadian assurance glossary",
+      "highlighted": true,
+      "later": false
+    },
+    {
+      "id": "g58",
+      "term": "Sufficiency (of audit evidence)",
+      "lo": "LO4",
+      "definition": "The measure of the quantity of audit evidence. The quantity of the audit evidence needed is affected by the auditor's assessment of the risks of material misstatement and also by the quality of such audit evidence.",
+      "source": "Highlighted Canadian assurance glossary",
+      "highlighted": true,
+      "later": false
+    },
+    {
+      "id": "g59",
+      "term": "System of quality management",
+      "lo": "LO2 (adjacent)",
+      "definition": "A system designed, implemented and operated by a firm to provide the firm with reasonable assurance that:\n(i)     The firm and its personnel fulfill their responsibilities in accordance with professional standards and applicable legal and regulatory requirements, and conduct engagements in accordance with such standards and requirements; and\n(ii)    Engagement reports issued by the firm or engagement partners are appropriate in the circumstances.",
+      "source": "Highlighted Canadian assurance glossary",
+      "highlighted": true,
+      "later": false
+    },
+    {
+      "id": "g60",
+      "term": "Test",
+      "lo": "LO4 / LO5",
+      "definition": "The application of procedures to some or all items in a population.",
+      "source": "Highlighted Canadian assurance glossary",
+      "highlighted": true,
+      "later": false
+    },
+    {
+      "id": "g61",
+      "term": "Tests of controls",
+      "lo": "LO5",
+      "definition": "An audit procedure designed to evaluate the operating effectiveness of controls in preventing, or detecting and correcting, material misstatements at the assertion level.",
+      "source": "Highlighted Canadian assurance glossary",
+      "highlighted": true,
+      "later": false
+    },
+    {
+      "id": "g62",
+      "term": "Tolerable rate of deviation",
+      "lo": "LO6",
+      "definition": "A rate of deviation from prescribed internal control procedures set by the auditor in respect of which the auditor seeks to obtain an appropriate level of assurance that the rate of deviation set by the auditor is not exceeded by the actual rate of deviation in the population.",
+      "source": "Highlighted Canadian assurance glossary",
+      "highlighted": true,
+      "later": true
+    },
+    {
+      "id": "g63",
+      "term": "Unmodified opinion",
+      "lo": "LO11",
+      "definition": "The opinion expressed by the auditor when the auditor concludes that the financial statements are prepared, in all material respects, in accordance with the applicable financial reporting framework. 19\nThe source contained 87 paragraphs with a yellow-highlight run. One was empty. The remaining 86 non-empty highlighted paragraphs form 63 glossary entries. All 63 are reproduced above, including their highlighted subordinate paragraphs.\nThe companion study guide explains and applies the midterm-relevant concepts using the instructor’s notes and slide decks.",
+      "source": "Highlighted Canadian assurance glossary",
+      "highlighted": true,
+      "later": true
+    },
+    {
+      "id": "c1",
+      "term": "Accounting vs. auditing",
+      "definition": "Accounting records/classifies/reports; auditing independently evaluates evidence about the claims in financial statements.",
+      "lo": "LO1",
+      "source": "Instructor Ch. 1–2 notes",
+      "highlighted": false,
+      "later": false
+    },
+    {
+      "id": "c2",
+      "term": "The audit accountability relationship",
+      "definition": "Client / management prepares; auditor tests; outside users rely on financial statements.",
+      "lo": "LO1",
+      "source": "Instructor Ch. 1–2 notes",
+      "highlighted": false,
+      "later": false
+    },
+    {
+      "id": "c3",
+      "term": "Reasonable, not absolute",
+      "definition": "An auditor seeks high assurance, not a guarantee of perfect or fraud-free statements.",
+      "lo": "LO1",
+      "source": "Messier Ch. 2 slides",
+      "highlighted": false,
+      "later": false
+    },
+    {
+      "id": "c4",
+      "term": "Internal auditors: EEE",
+      "definition": "Economy, efficiency and effectiveness of operations.",
+      "lo": "LO1",
+      "source": "Instructor Ch. 1–2 notes",
+      "highlighted": false,
+      "later": false
+    },
+    {
+      "id": "c5",
+      "term": "Five ethical principles",
+      "definition": "Integrity; objectivity; competence and due care; confidentiality; professional behaviour.",
+      "lo": "LO1",
+      "source": "Instructor Ch. 1–2 notes",
+      "highlighted": false,
+      "later": false
+    },
+    {
+      "id": "c6",
+      "term": "Independence in mind vs. appearance",
+      "definition": "Mind = actually unbiased. Appearance = would a reasonable outside observer perceive objectivity?",
+      "lo": "LO1",
+      "source": "Instructor Ch. 1–2 notes",
+      "highlighted": false,
+      "later": false
+    },
+    {
+      "id": "c7",
+      "term": "AASB",
+      "definition": "Auditing and Assurance Standards Board.",
+      "lo": "LO2",
+      "source": "Messier Ch. 2 slides",
+      "highlighted": false,
+      "later": false
+    },
+    {
+      "id": "c8",
+      "term": "CPAB",
+      "definition": "Canadian Public Accountability Board.",
+      "lo": "LO2",
+      "source": "Messier Ch. 2 slides",
+      "highlighted": false,
+      "later": false
+    },
+    {
+      "id": "c9",
+      "term": "IAASB",
+      "definition": "International Auditing and Assurance Standards Board.",
+      "lo": "LO2",
+      "source": "Messier Ch. 2 slides",
+      "highlighted": false,
+      "later": false
+    },
+    {
+      "id": "c10",
+      "term": "Purpose of auditing standards",
+      "definition": "Support consistent and thorough audit work and help evaluate its quality.",
+      "lo": "LO2",
+      "source": "Messier Ch. 2 slides",
+      "highlighted": false,
+      "later": false
+    },
+    {
+      "id": "c11",
+      "term": "Prospective-client acceptance: three checks",
+      "definition": "Capabilities to perform; ethics and legal compliance; client integrity.",
+      "lo": "LO3",
+      "source": "Messier Ch. 3 slides",
+      "highlighted": false,
+      "later": false
+    },
+    {
+      "id": "c12",
+      "term": "An engagement letter",
+      "definition": "Written understanding of audit terms, objectives, responsibilities and limitations.",
+      "lo": "LO3",
+      "source": "Messier Ch. 3 slides",
+      "highlighted": false,
+      "later": false
+    },
+    {
+      "id": "c13",
+      "term": "Strategy vs. audit plan",
+      "definition": "Strategy = broad scope/timing/direction. Plan = detailed procedures to perform.",
+      "lo": "LO3",
+      "source": "Messier Ch. 3 slides",
+      "highlighted": false,
+      "later": false
+    },
+    {
+      "id": "c14",
+      "term": "Audit risk equation",
+      "definition": "AR = IR × CR × DR; RMM = IR × CR.",
+      "lo": "LO3",
+      "source": "Messier Ch. 4 slides",
+      "highlighted": false,
+      "later": false
+    },
+    {
+      "id": "c15",
+      "term": "High RMM means…",
+      "definition": "Holding desired audit risk low, higher risk of material misstatement requires lower allowable detection risk and more testing.",
+      "lo": "LO3",
+      "source": "Messier Ch. 4 slides",
+      "highlighted": false,
+      "later": false
+    },
+    {
+      "id": "c16",
+      "term": "Materiality: aggregate errors",
+      "definition": "Small uncorrected misstatements can become material when combined.",
+      "lo": "LO3",
+      "source": "Instructor Ch. 3 notes",
+      "highlighted": false,
+      "later": false
+    },
+    {
+      "id": "c17",
+      "term": "Materiality: income benchmark",
+      "definition": "The instructor worksheet gives normalized pre-tax income 5–10% as a guideline, not a universal rule.",
+      "lo": "LO3",
+      "source": "Instructor Ch. 3 notes",
+      "highlighted": false,
+      "later": false
+    },
+    {
+      "id": "c18",
+      "term": "Materiality: asset/revenue benchmarks",
+      "definition": "The instructor worksheet gives assets and revenue 0.5–1% guideline ranges.",
+      "lo": "LO3",
+      "source": "Instructor Ch. 3 notes",
+      "highlighted": false,
+      "later": false
+    },
+    {
+      "id": "c19",
+      "term": "Transactions: key assertions",
+      "definition": "Occurrence, completeness, accuracy, cutoff, classification, presentation.",
+      "lo": "LO4",
+      "source": "Instructor Ch. 5 notes",
+      "highlighted": false,
+      "later": false
+    },
+    {
+      "id": "c20",
+      "term": "Balances: key assertions",
+      "definition": "Existence, rights and obligations, completeness, valuation, classification, presentation.",
+      "lo": "LO4",
+      "source": "Instructor Ch. 5 notes",
+      "highlighted": false,
+      "later": false
+    },
+    {
+      "id": "c21",
+      "term": "Vouching = backward",
+      "definition": "Accounting record → source document; typically tests occurrence / existence.",
+      "lo": "LO4",
+      "source": "Instructor Ch. 5 notes",
+      "highlighted": false,
+      "later": false
+    },
+    {
+      "id": "c22",
+      "term": "Tracing = forward",
+      "definition": "Source document → accounting record; typically tests completeness.",
+      "lo": "LO4",
+      "source": "Instructor Ch. 5 notes",
+      "highlighted": false,
+      "later": false
+    },
+    {
+      "id": "c23",
+      "term": "Sufficiency vs. appropriateness",
+      "definition": "Sufficiency = amount of evidence; appropriateness = relevance and reliability (quality).",
+      "lo": "LO4",
+      "source": "Messier Ch. 5 slides",
+      "highlighted": false,
+      "later": false
+    },
+    {
+      "id": "c24",
+      "term": "Permanent vs. current files",
+      "definition": "Permanent = recurring reference materials. Current = papers supporting this year’s audit.",
+      "lo": "LO4",
+      "source": "Messier Ch. 5 slides",
+      "highlighted": false,
+      "later": false
+    },
+    {
+      "id": "c25",
+      "term": "Tick marks and PBC",
+      "definition": "Tick marks show audit work and need a legend; PBC means prepared by client.",
+      "lo": "LO4",
+      "source": "Instructor Ch. 5 notes",
+      "highlighted": false,
+      "later": false
+    },
+    {
+      "id": "c26",
+      "term": "Control vs. test of controls",
+      "definition": "Control = client safeguards (e.g. sign approval). Test = auditor checks it operated (e.g. inspect signed orders).",
+      "lo": "LO5",
+      "source": "Messier Ch. 3 slides",
+      "highlighted": false,
+      "later": false
+    },
+    {
+      "id": "c27",
+      "term": "Segregation of duties",
+      "definition": "Separate incompatible responsibilities (for example, shipping from billing) to reduce errors and fraud.",
+      "lo": "LO5",
+      "source": "Messier Ch. 3 slides",
+      "highlighted": false,
+      "later": false
+    },
+    {
+      "id": "c28",
+      "term": "Substantive vs. controls tests",
+      "definition": "Substantive detects misstatements in balances, transactions or disclosures; control tests evaluate effectiveness of controls.",
+      "lo": "LO5",
+      "source": "Messier Ch. 3 slides",
+      "highlighted": false,
+      "later": false
+    }
+  ],
+  "lessons": [
+    {
+      "id": "LO1",
+      "short": "The profession",
+      "title": "Describe the auditing profession",
+      "chapters": "Course LO1 · Messier Ch. 1–3",
+      "source": "Instructor Ch. 1–2; Messier slides Ch. 1–2; highlighted glossary",
+      "intro": "Understand why auditors provide assurance, who is responsible for the statements, different auditor roles, and professional ethics.",
+      "sections": [
+        {
+          "title": "Accounting vs. auditing",
+          "points": [
+            "Accounting records, classifies and reports transactions; auditing objectively gathers and evaluates evidence about financial-statement claims.",
+            "The three-party relationship described in the instructor handout involves the client, auditor and financial-statement users.",
+            "Management prepares financial statements and maintains internal control. The external auditor tests and expresses an opinion."
+          ]
+        },
+        {
+          "title": "Assurance and audit work",
+          "points": [
+            "Auditing is a subset of attest services, which sit within broader assurance services (Messier Ch. 1 slide 3).",
+            "A financial-statement audit improves users’ confidence, but gives reasonable—not absolute—assurance.",
+            "Internal/operational auditors assess economy, efficiency and effectiveness (EEE). External auditors must be independent of the client. Government, regulatory and forensic audits use different criteria and purposes."
+          ]
+        },
+        {
+          "title": "Ethics & independence",
+          "points": [
+            "Five principles in the instructor handout: integrity, objectivity, professional competence and due care, confidentiality, professional behaviour.",
+            "Independence in fact/mind means genuinely unbiased judgment; independence in appearance means looking objective to an informed outsider.",
+            "Professional skepticism means questioning evidence and staying alert for errors or fraud."
+          ]
+        }
+      ],
+      "gap": "Course LO1 lists auditor legal liability; the supplied handouts/decks do not explain it in comparable detail."
+    },
+    {
+      "id": "LO2",
+      "short": "Standards & oversight",
+      "title": "Apply auditing standards (GAAS)",
+      "chapters": "Course LO2 · Messier Ch. 1–3",
+      "source": "Messier slides Ch. 2; instructor Ch. 1–2",
+      "intro": "Know what auditing standards accomplish and recognize the organizations and codes referenced in the slides.",
+      "sections": [
+        {
+          "title": "Why standards matter",
+          "points": [
+            "Auditing standards help make audits consistent and thorough and provide criteria for evaluating performance (Messier Ch. 2 slide 12).",
+            "Professional conduct requirements govern ethical behaviour and independence.",
+            "The notes distinguish criteria for an audit—for example, a financial reporting framework—from standards that govern the auditor’s work."
+          ]
+        },
+        {
+          "title": "Organizations named in the deck",
+          "points": [
+            "AASB — Auditing and Assurance Standards Board; CPAB — Canadian Public Accountability Board.",
+            "CPA Canada — Chartered Professional Accountants of Canada; CSA — Canadian Securities Administrators.",
+            "IAASB — International Auditing and Assurance Standards Board; IASB — International Accounting Standards Board."
+          ]
+        }
+      ],
+      "gap": "The syllabus calls for GAAS examination standards, but the supplied slides do not systematically teach every requirement. Chapter 2 slide 10 also has a questionable AcSB label; confirm with instructor."
+    },
+    {
+      "id": "LO3",
+      "short": "Planning & risk",
+      "title": "Describe the audit engagement",
+      "chapters": "Course LO3 · Messier Ch. 4–5; supplied slides Ch. 3–4",
+      "source": "Messier slides Ch. 3–4; instructor Ch. 3; three risk scenarios; highlighted glossary",
+      "intro": "Client acceptance, engagement letters, audit planning, risk model, and materiality are central.",
+      "sections": [
+        {
+          "title": "Engagement and planning",
+          "points": [
+            "Before accepting a client assess capabilities, ethical/legal compliance including independence, and client integrity (Messier Ch. 3 slides 3–6).",
+            "An engagement letter sets out the terms, objectives, responsibilities and limitations (Ch. 3 slide 9).",
+            "Overall audit strategy sets scope/timing/direction; the audit plan contains more detailed procedures."
+          ]
+        },
+        {
+          "title": "Audit risk model",
+          "points": [
+            "Risk of material misstatement (RMM) comes from inherent risk (IR) and control risk (CR).",
+            "Audit Risk (AR) = IR × CR × DR, where DR = detection risk (Messier Ch. 4 slide 4).",
+            "For a low target AR, higher assessed RMM means lower allowable DR, so the auditor needs more persuasive testing."
+          ]
+        },
+        {
+          "title": "Materiality",
+          "points": [
+            "A misstatement is material if it can affect users’ decisions. The auditor uses professional judgment and considers qualitative factors, not just dollars.",
+            "The instructor’s guideline worksheet gives ranges: normalized pretax income 5–10%, assets 0.5–1%, equity 0.5–5%, revenue 0.5–1%, gross profit 0.5–5%. These are guidelines, not automatic rules.",
+            "Evaluate combined uncorrected errors. Five errors of $15,000 total $75,000 and would exceed $50,000 overall materiality (instructor note).",
+            "Intentional misstatements, legal breaches and earnings management may be qualitatively significant even if the amount is small."
+          ]
+        }
+      ],
+      "gap": "The handout titled “Chapter 3” focuses on materiality; the textbook slide deck Ch. 3 covers planning too. Chapter numbers and course LO numbers are not interchangeable."
+    },
+    {
+      "id": "LO4",
+      "short": "Evidence & assertions",
+      "title": "Gather audit evidence",
+      "chapters": "Course LO4 · Messier Ch. 6; supplied slides Ch. 5",
+      "source": "Instructor Ch. 5; Messier Ch. 5 slide deck; highlighted glossary",
+      "intro": "Identify the management assertion, choose a relevant audit procedure, assess evidence quality, and document the audit.",
+      "sections": [
+        {
+          "title": "Management assertions",
+          "points": [
+            "For transactions: occurrence, completeness, accuracy, cutoff, classification, presentation.",
+            "For period-end balances: existence, rights and obligations, completeness, accuracy/valuation/allocation, classification, presentation.",
+            "The slides additionally list authorization as a transaction assertion, while the instructor’s CAS 315 list omits it as a separate assertion; keep these sources distinct."
+          ]
+        },
+        {
+          "title": "Sufficiency vs. appropriateness",
+          "points": [
+            "Sufficiency means quantity of evidence; greater risk generally requires more evidence.",
+            "Appropriateness means quality—relevance and reliability. Evidence from independent external sources and the auditor’s own inspection can be especially persuasive.",
+            "Inquiry alone is less reliable; corroborate it where necessary."
+          ]
+        },
+        {
+          "title": "Procedure selection",
+          "points": [
+            "Vouching: accounting record backward to source → tests occurrence/existence.",
+            "Tracing: source document forward to accounting records → tests completeness.",
+            "Other procedures: inspection, observation, inquiry, confirmation, recalculation, reperformance, scanning, analytical procedures."
+          ]
+        },
+        {
+          "title": "Audit program and working papers",
+          "points": [
+            "An audit program lists planned tests. Control tests evaluate control operation; substantive tests detect misstatements.",
+            "Working papers record procedures, evidence, results and conclusions. Permanent files retain long-lived documents; current files support the present engagement.",
+            "The instructor flags indexing, cross-references, tick marks, PBC notation, signatures, and lead sheets as especially important for the simulation."
+          ]
+        }
+      ],
+      "gap": "Slide Ch. 5 slide 20 has confusing labels for tracing/vouching; the clearer Ch. 5 slide 13 diagram and instructor notes are used here."
+    },
+    {
+      "id": "LO5",
+      "short": "Internal controls",
+      "title": "Evaluate internal controls",
+      "chapters": "Course LO5 · syllabus lists textbook Ch. 7–8",
+      "source": "Messier Ch. 3 slide 17; instructor Ch. 5 notes; highlighted glossary (partial coverage)",
+      "intro": "Know what controls are, why they matter, what control risk is, and how auditors test whether controls operate.",
+      "sections": [
+        {
+          "title": "What controls aim to achieve",
+          "points": [
+            "Internal control provides reasonable assurance about reliable financial reporting, efficient/effective operations, and compliance with laws and regulations (highlighted glossary).",
+            "Examples from Ch. 3 slide 17: separate shipping from billing; document credit approvals; account for numbered sales invoices.",
+            "A deficiency occurs when a necessary control is missing or fails to prevent, detect and correct a misstatement promptly."
+          ]
+        },
+        {
+          "title": "Tests of controls vs substantive tests",
+          "points": [
+            "Control = company action, such as a supervisor signing an approval.",
+            "Test of controls = auditor checks whether the approval actually happened, e.g. inspecting sample signatures.",
+            "Substantive procedure = auditor tries to detect a misstatement in a transaction, balance or disclosure.",
+            "Repeatedly overridden controls increase control risk; see the instructor’s inventory, ghost-payroll and duplicate-invoice scenarios."
+          ]
+        }
+      ],
+      "gap": "IMPORTANT: No dedicated LO5 Chapters 7–8 slide decks or handout were supplied. This section is necessarily incomplete; check course materials for anything else the instructor assigned."
+    }
+  ],
+  "cases": [
+    {
+      "id": "case1",
+      "title": "Inventory count discrepancy",
+      "topic": "Inventory · overrides",
+      "source": "Instructor: Risk Assessment Scenarious.docx, Scenario 1",
+      "scenario": "An electronics retailer stocks small, high-value microchips. Inventory software identifies a discrepancy. The warehouse manager manually adjusts system counts without investigating it; the auditor accepts the final report without examining adjustment logs.",
+      "prompts": [
+        "Identify the inherent risk.",
+        "Identify the control risk.",
+        "Identify the detection risk."
+      ],
+      "answers": [
+        "The high-value, small items are susceptible to theft or shrinkage before considering controls.",
+        "The manager could override the discrepancy without independent investigation or approval.",
+        "The auditor accepted the final report and omitted testing of manual adjustment logs."
+      ]
+    },
+    {
+      "id": "case2",
+      "title": "Ghost employee payroll",
+      "topic": "Payroll · exception reports",
+      "source": "Instructor: Risk Assessment Scenarious.docx, Scenario 2",
+      "scenario": "A payroll clerk mistakenly reactivates a terminated employee. Software flags duplicate bank details for two names, but the clerk clears the warning without supervisory approval. The auditor checks payroll totals but not cleared exception reports.",
+      "prompts": [
+        "Identify the inherent risk.",
+        "Identify the control risk.",
+        "Identify the detection risk."
+      ],
+      "answers": [
+        "Payroll data entry is susceptible to mistaken or unauthorized payments even before controls.",
+        "The clerk can dismiss a flagged anomaly without a manager reviewing it.",
+        "The auditor does not inspect exception reports, so the issue is missed."
+      ]
+    },
+    {
+      "id": "case3",
+      "title": "Duplicate supplier invoice",
+      "topic": "Payables · sampling",
+      "source": "Instructor: Risk Assessment Scenarious.docx, Scenario 3",
+      "scenario": "An accounts payable clerk enters the same supplier invoice twice. The system warns of a duplicate, but the clerk clicks Ignore. The auditor samples invoices and misses this vendor file.",
+      "prompts": [
+        "Identify the inherent risk.",
+        "Identify the control risk.",
+        "Identify the detection risk."
+      ],
+      "answers": [
+        "The purchasing and data-entry process is vulnerable to duplicate invoices before controls.",
+        "The software warning can be bypassed without a blocking or supervisory review.",
+        "The auditor’s sample does not include the erroneous invoice and the error goes undetected."
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "lo": "LO1",
+      "prompt": "Who is primarily responsible for preparing the financial statements?",
+      "choices": [
+        "External auditor",
+        "Management",
+        "Outside investors",
+        "The audit firm’s regulator"
+      ],
+      "correct": 1,
+      "explanation": "Management prepares the statements and maintains internal control; the auditor tests and provides an independent opinion.",
+      "source": "Instructor Ch. 1–2 notes",
+      "kind": "Concept"
+    },
+    {
+      "id": "q2",
+      "lo": "LO1",
+      "prompt": "What is the main purpose of a financial statement audit?",
+      "choices": [
+        "Guarantee that every number is correct",
+        "Prepare entries for management",
+        "Improve intended users’ confidence in financial statements",
+        "Determine company share prices"
+      ],
+      "correct": 2,
+      "explanation": "The auditor expresses an opinion about fair presentation in all material respects.",
+      "source": "Instructor Ch. 1–2 notes",
+      "kind": "Concept"
+    },
+    {
+      "id": "q3",
+      "lo": "LO1",
+      "prompt": "In the instructor notes, who are the three parties in the accountability relationship?",
+      "choices": [
+        "Auditor, client, users",
+        "CEO, CFO, bookkeeper",
+        "CRA, bank, CFO",
+        "Board, lender, tax auditor"
+      ],
+      "correct": 0,
+      "explanation": "Client/management, auditor and users are the three parties.",
+      "source": "Instructor Ch. 1–2 notes",
+      "kind": "Concept"
+    },
+    {
+      "id": "q4",
+      "lo": "LO1",
+      "prompt": "An audit provides what level of assurance?",
+      "choices": [
+        "Absolute certainty",
+        "No assurance",
+        "Reasonable assurance",
+        "Only management assurance"
+      ],
+      "correct": 2,
+      "explanation": "Reasonable assurance is a high level, not absolute certainty.",
+      "source": "Messier Ch. 2 slides",
+      "kind": "Concept"
+    },
+    {
+      "id": "q5",
+      "lo": "LO1",
+      "prompt": "Which relationship is shown in the Chapter 1 slides?",
+      "choices": [
+        "Assurance is within audits",
+        "Audits are a subset of attest, which is within assurance",
+        "Attest is always unrelated to assurance",
+        "Tax planning is a financial-statement audit"
+      ],
+      "correct": 1,
+      "explanation": "The slides depict nested circles: audit ⊂ attest ⊂ assurance.",
+      "source": "Messier Ch. 1 slides",
+      "kind": "Concept"
+    },
+    {
+      "id": "q6",
+      "lo": "LO1",
+      "prompt": "Which role is most associated with economy, efficiency and effectiveness (EEE)?",
+      "choices": [
+        "Internal/operational auditor",
+        "External tax preparer",
+        "Inventory controller",
+        "Bank loan officer"
+      ],
+      "correct": 0,
+      "explanation": "EEE is the mnemonic used for internal/operational auditing in the instructor notes.",
+      "source": "Instructor Ch. 1–2 notes",
+      "kind": "Concept"
+    },
+    {
+      "id": "q7",
+      "lo": "LO1",
+      "prompt": "Which audit checks whether an organization follows laws, regulations or policies?",
+      "choices": [
+        "Compliance audit",
+        "Only financial statement audit",
+        "Valuation audit",
+        "Forecast audit"
+      ],
+      "correct": 0,
+      "explanation": "A compliance audit compares practices to an applicable set of laws or rules.",
+      "source": "Instructor Ch. 1–2 notes",
+      "kind": "Concept"
+    },
+    {
+      "id": "q8",
+      "lo": "LO1",
+      "prompt": "What is independence in fact (mind)?",
+      "choices": [
+        "Never meeting management",
+        "Being genuinely unbiased",
+        "Only communicating in writing",
+        "Having an audit license"
+      ],
+      "correct": 1,
+      "explanation": "It is an objective state of mind, free of bias.",
+      "source": "Instructor Ch. 1–2 notes",
+      "kind": "Concept"
+    },
+    {
+      "id": "q9",
+      "lo": "LO1",
+      "prompt": "What is independence in appearance?",
+      "choices": [
+        "Performing no analytical procedures",
+        "Seeming objective to a reasonable outside observer",
+        "Refusing all staff interviews",
+        "Only auditing publicly held firms"
+      ],
+      "correct": 1,
+      "explanation": "Appearance concerns whether an informed third party would perceive independence.",
+      "source": "Instructor Ch. 1–2 notes",
+      "kind": "Concept"
+    },
+    {
+      "id": "q10",
+      "lo": "LO1",
+      "prompt": "An auditor is honest, straightforward and truthful. Which ethics principle is demonstrated?",
+      "choices": [
+        "Confidentiality",
+        "Integrity",
+        "Professional behavior",
+        "Materiality"
+      ],
+      "correct": 1,
+      "explanation": "Integrity requires honesty and truthfulness.",
+      "source": "Instructor Ch. 1–2 notes",
+      "kind": "Concept"
+    },
+    {
+      "id": "q11",
+      "lo": "LO1",
+      "prompt": "Avoiding conflicts of interest and undue influence primarily reflects which principle?",
+      "choices": [
+        "Objectivity",
+        "Sampling",
+        "Efficiency",
+        "Classification"
+      ],
+      "correct": 0,
+      "explanation": "Objectivity is freedom from bias, conflicts and undue influence.",
+      "source": "Instructor Ch. 1–2 notes",
+      "kind": "Concept"
+    },
+    {
+      "id": "q12",
+      "lo": "LO1",
+      "prompt": "Maintaining sufficient skills and doing work diligently refers to:",
+      "choices": [
+        "Confidentiality",
+        "Professional competence and due care",
+        "Independence in appearance only",
+        "Audit sampling"
+      ],
+      "correct": 1,
+      "explanation": "The instructor handout names competence and due care as one of five ethical principles.",
+      "source": "Instructor Ch. 1–2 notes",
+      "kind": "Concept"
+    },
+    {
+      "id": "q13",
+      "lo": "LO1",
+      "prompt": "Keeping sensitive client information private is an example of:",
+      "choices": [
+        "Cutoff",
+        "Confidentiality",
+        "Completeness",
+        "Tolerable misstatement"
+      ],
+      "correct": 1,
+      "explanation": "Confidentiality prohibits inappropriate use or disclosure of client information.",
+      "source": "Instructor Ch. 1–2 notes",
+      "kind": "Concept"
+    },
+    {
+      "id": "q14",
+      "lo": "LO1",
+      "prompt": "What best describes professional skepticism?",
+      "choices": [
+        "Assuming management is dishonest",
+        "Questioning mind and critical evaluation of evidence",
+        "Ignoring internal data",
+        "Believing all statements"
+      ],
+      "correct": 1,
+      "explanation": "The highlighted glossary emphasizes questioning, alertness to error/fraud, and critical assessment.",
+      "source": "Highlighted glossary",
+      "kind": "Concept"
+    },
+    {
+      "id": "q15",
+      "lo": "LO1",
+      "prompt": "A government auditor checks value for money and compliance. Which category fits best?",
+      "choices": [
+        "Public-sector/comprehensive audit",
+        "Only financial forecasting",
+        "Auditor independence test",
+        "Tax compilation"
+      ],
+      "correct": 0,
+      "explanation": "Instructor notes discuss OAG comprehensive work and value-for-money studies.",
+      "source": "Instructor Ch. 1–2 notes",
+      "kind": "Concept"
+    },
+    {
+      "id": "q16",
+      "lo": "LO1",
+      "prompt": "A forensic auditor is most directly associated with:",
+      "choices": [
+        "Fraud and legal investigations",
+        "Daily recording of payables",
+        "Preparing payroll tax slips",
+        "Setting annual budgets"
+      ],
+      "correct": 0,
+      "explanation": "The instructor notes connect forensic accounting to fraud and potential legal proceedings.",
+      "source": "Instructor Ch. 1–2 notes",
+      "kind": "Concept"
+    },
+    {
+      "id": "q17",
+      "lo": "LO2",
+      "prompt": "Why are auditing standards important?",
+      "choices": [
+        "They replace management judgment",
+        "They support consistent, thorough audits",
+        "They specify every company’s profit",
+        "They prohibit all estimation"
+      ],
+      "correct": 1,
+      "explanation": "The Chapter 2 slides say standards support consistent, thorough audit work and quality assessment.",
+      "source": "Messier Ch. 2 slides",
+      "kind": "Concept"
+    },
+    {
+      "id": "q18",
+      "lo": "LO2",
+      "prompt": "What does AASB stand for?",
+      "choices": [
+        "Audit Accounting Statutory Bureau",
+        "Auditing and Assurance Standards Board",
+        "Accountants Assurance Securities Board",
+        "Auditing Accounting Services Branch"
+      ],
+      "correct": 1,
+      "explanation": "This organization is named on the Canadian oversight slide.",
+      "source": "Messier Ch. 2 slides",
+      "kind": "Concept"
+    },
+    {
+      "id": "q19",
+      "lo": "LO2",
+      "prompt": "Which organization is the Canadian Public Accountability Board?",
+      "choices": [
+        "CPA Canada",
+        "CSA",
+        "CPAB",
+        "IAASB"
+      ],
+      "correct": 2,
+      "explanation": "The slides expand CPAB as Canadian Public Accountability Board.",
+      "source": "Messier Ch. 2 slides",
+      "kind": "Concept"
+    },
+    {
+      "id": "q20",
+      "lo": "LO2",
+      "prompt": "What does CSA stand for in the Chapter 2 organization list?",
+      "choices": [
+        "Canadian Securities Administrators",
+        "Canadian Standards Agency",
+        "Chartered Securities Auditors",
+        "Corporate Standards Authority"
+      ],
+      "correct": 0,
+      "explanation": "The Chapter 2 deck names the Canadian Securities Administrators.",
+      "source": "Messier Ch. 2 slides",
+      "kind": "Concept"
+    },
+    {
+      "id": "q21",
+      "lo": "LO2",
+      "prompt": "What does IAASB stand for?",
+      "choices": [
+        "International Accounting Audit Service Bureau",
+        "International Auditing and Assurance Standards Board",
+        "Internal Assurance and Audit Systems Board",
+        "International Accountants Association of Saskatchewan"
+      ],
+      "correct": 1,
+      "explanation": "The slides list IAASB as an international auditing and assurance body.",
+      "source": "Messier Ch. 2 slides",
+      "kind": "Concept"
+    },
+    {
+      "id": "q22",
+      "lo": "LO2",
+      "prompt": "According to the Chapter 2 slides, an audit team normally includes:",
+      "choices": [
+        "Partner, manager, senior, staff",
+        "Treasurer, lawyer, judge, broker",
+        "Client, customer, lender, buyer",
+        "Taxpayer, CRA agent, auditor, clerk"
+      ],
+      "correct": 0,
+      "explanation": "The chapter depicts the audit-team structure: partner → manager → senior → staff.",
+      "source": "Messier Ch. 2 slides",
+      "kind": "Concept"
+    },
+    {
+      "id": "q23",
+      "lo": "LO2",
+      "prompt": "Which audit-team member signs the report and has final responsibility?",
+      "choices": [
+        "Staff/associate",
+        "Senior/in-charge",
+        "Partner",
+        "Customer"
+      ],
+      "correct": 2,
+      "explanation": "The deck lists the partner as concluding on evidence and signing the audit report.",
+      "source": "Messier Ch. 2 slides",
+      "kind": "Concept"
+    },
+    {
+      "id": "q24",
+      "lo": "LO2",
+      "prompt": "Which role usually carries out assigned audit procedures and documents the work?",
+      "choices": [
+        "Associate/staff",
+        "Outside investor",
+        "Audit committee chair",
+        "Bank manager"
+      ],
+      "correct": 0,
+      "explanation": "The slides assign performing tests and preparing documentation to associates.",
+      "source": "Messier Ch. 2 slides",
+      "kind": "Concept"
+    },
+    {
+      "id": "q25",
+      "lo": "LO2",
+      "prompt": "Which statement best reflects the relationship between ethics and audit standards?",
+      "choices": [
+        "Ethics replaces the need for evidence",
+        "Auditors follow both applicable standards and professional conduct rules",
+        "Standards only apply to company managers",
+        "Only accountants working in banks must follow ethics"
+      ],
+      "correct": 1,
+      "explanation": "Professional standards and codes guide both audit execution and behavior.",
+      "source": "Messier Ch. 2 slides",
+      "kind": "Concept"
+    },
+    {
+      "id": "q26",
+      "lo": "LO2",
+      "prompt": "A public accounting firm is deciding whether its team has enough staff and skills for an engagement. This occurs during:",
+      "choices": [
+        "Client acceptance / pre-engagement assessment",
+        "Issuing an adverse opinion",
+        "Inventory costing",
+        "Closing journal entries"
+      ],
+      "correct": 0,
+      "explanation": "Chapter 3 slides identify competence/capacity as a pre-acceptance question.",
+      "source": "Messier Ch. 3 slides",
+      "kind": "Concept"
+    },
+    {
+      "id": "q27",
+      "lo": "LO3",
+      "prompt": "What are the three key prospective-client acceptance areas in the slides?",
+      "choices": [
+        "Cash, inventory, payroll",
+        "Capabilities, ethical/legal compliance, client integrity",
+        "Sales, expenses, net income",
+        "Scope, sampling, tax rates"
+      ],
+      "correct": 1,
+      "explanation": "The Chapter 3 slides list capabilities, legal/ethical compliance, and client integrity.",
+      "source": "Messier Ch. 3 slides",
+      "kind": "Concept"
+    },
+    {
+      "id": "q28",
+      "lo": "LO3",
+      "prompt": "What is the purpose of the engagement letter?",
+      "choices": [
+        "Record the final audit opinion",
+        "Document engagement terms and responsibilities",
+        "Guarantee the client a clean opinion",
+        "Replace working papers"
+      ],
+      "correct": 1,
+      "explanation": "The engagement letter sets terms, objectives, responsibilities and limitations.",
+      "source": "Messier Ch. 3 slides",
+      "kind": "Concept"
+    },
+    {
+      "id": "q29",
+      "lo": "LO3",
+      "prompt": "How does the audit plan differ from the overall audit strategy?",
+      "choices": [
+        "The plan is more detailed",
+        "The strategy is always prepared after the opinion",
+        "They are unrelated",
+        "The plan only discusses client fees"
+      ],
+      "correct": 0,
+      "explanation": "The slides distinguish a broad strategy from a more detailed plan.",
+      "source": "Messier Ch. 3 slides",
+      "kind": "Concept"
+    },
+    {
+      "id": "q30",
+      "lo": "LO3",
+      "prompt": "Which situation suggests reconsidering whether to retain a client?",
+      "choices": [
+        "Client has a chart of accounts",
+        "Repeated disagreements over accounting issues",
+        "Auditors use a permanent file",
+        "Client has inventory"
+      ],
+      "correct": 1,
+      "explanation": "Disputes over accounting issues, fees, or significant events can affect retention.",
+      "source": "Messier Ch. 3 slides",
+      "kind": "Concept"
+    },
+    {
+      "id": "q31",
+      "lo": "LO3",
+      "prompt": "Audit risk means:",
+      "choices": [
+        "Risk that cash gets stolen",
+        "Risk auditor gives an inappropriate opinion when statements are materially misstated",
+        "Risk every invoice is wrong",
+        "Risk auditor loses the contract"
+      ],
+      "correct": 1,
+      "explanation": "This is the highlighted glossary definition and Chapter 4 slide 2.",
+      "source": "Highlighted glossary",
+      "kind": "Concept"
+    },
+    {
+      "id": "q32",
+      "lo": "LO3",
+      "prompt": "Which equation matches the risk model on the slides?",
+      "choices": [
+        "AR = IR + CR + DR",
+        "AR = IR × CR × DR",
+        "AR = IR ÷ CR + DR",
+        "AR = IR × Assets"
+      ],
+      "correct": 1,
+      "explanation": "Chapter 4 slide 4 gives audit risk as inherent × control × detection risk.",
+      "source": "Messier Ch. 4 slides",
+      "kind": "Calculation"
+    },
+    {
+      "id": "q33",
+      "lo": "LO3",
+      "prompt": "Risk of material misstatement (RMM) combines:",
+      "choices": [
+        "Inherent risk and control risk",
+        "Detection risk and sampling cost",
+        "Audit fee and materiality",
+        "Professional skepticism and timing"
+      ],
+      "correct": 0,
+      "explanation": "RMM = IR × CR in the audit risk model.",
+      "source": "Messier Ch. 4 slides",
+      "kind": "Concept"
+    },
+    {
+      "id": "q34",
+      "lo": "LO3",
+      "prompt": "Inherent risk means:",
+      "choices": [
+        "The auditor fails to discover a misstatement",
+        "Susceptibility to misstatement before considering controls",
+        "Control was tested successfully",
+        "The opinion was unmodified"
+      ],
+      "correct": 1,
+      "explanation": "The risk exists before considering the company’s controls.",
+      "source": "Highlighted glossary",
+      "kind": "Concept"
+    },
+    {
+      "id": "q35",
+      "lo": "LO3",
+      "prompt": "Control risk means:",
+      "choices": [
+        "A company control fails to prevent or detect/correct a material misstatement",
+        "The auditor audits too slowly",
+        "The client has low revenue",
+        "Inventory is counted twice"
+      ],
+      "correct": 0,
+      "explanation": "Control risk concerns failures of company controls.",
+      "source": "Highlighted glossary",
+      "kind": "Concept"
+    },
+    {
+      "id": "q36",
+      "lo": "LO3",
+      "prompt": "Detection risk means:",
+      "choices": [
+        "Management forgot to sign",
+        "The auditor’s procedures may miss a material misstatement",
+        "Company computers are down",
+        "Goods may be stolen before controls"
+      ],
+      "correct": 1,
+      "explanation": "It is risk that auditor procedures fail to detect an existing material misstatement.",
+      "source": "Highlighted glossary",
+      "kind": "Concept"
+    },
+    {
+      "id": "q37",
+      "lo": "LO3",
+      "prompt": "If inherent and control risks are assessed as high, and target audit risk is low, planned detection risk should:",
+      "choices": [
+        "Increase",
+        "Decrease",
+        "Stay fixed at 100%",
+        "Be ignored"
+      ],
+      "correct": 1,
+      "explanation": "High RMM requires lower permissible DR to keep AR low, usually leading to more work.",
+      "source": "Messier Ch. 4 slides",
+      "kind": "Concept"
+    },
+    {
+      "id": "q38",
+      "lo": "LO3",
+      "prompt": "If RMM is low, the auditor may accept what planned detection risk (holding desired audit risk constant)?",
+      "choices": [
+        "Higher",
+        "Always zero",
+        "Lower",
+        "No detection risk at all"
+      ],
+      "correct": 0,
+      "explanation": "The Ch. 4 example pairs low RMM with higher DR and less evidence.",
+      "source": "Messier Ch. 4 slides",
+      "kind": "Concept"
+    },
+    {
+      "id": "q39",
+      "lo": "LO3",
+      "prompt": "What often happens to the amount of testing when allowable detection risk decreases?",
+      "choices": [
+        "Testing decreases",
+        "Testing generally increases",
+        "Audit stops",
+        "Sample size always becomes exactly 10"
+      ],
+      "correct": 1,
+      "explanation": "Auditors generally gather more persuasive evidence when they need lower DR.",
+      "source": "Messier Ch. 4 slides",
+      "kind": "Concept"
+    },
+    {
+      "id": "q40",
+      "lo": "LO3",
+      "prompt": "A warehouse manager can overwrite inventory exception logs with no approval. Which risk is most directly demonstrated?",
+      "choices": [
+        "Control risk",
+        "Only detection risk",
+        "Only materiality",
+        "Audit opinion risk only"
+      ],
+      "correct": 0,
+      "explanation": "The client’s override authority without review is a control weakness.",
+      "source": "Instructor risk assessment scenarios",
+      "kind": "Scenario"
+    },
+    {
+      "id": "q41",
+      "lo": "LO3",
+      "prompt": "An auditor never checks overridden exception reports and therefore misses an error. Which component?",
+      "choices": [
+        "Inherent risk",
+        "Control risk",
+        "Detection risk",
+        "No risk"
+      ],
+      "correct": 2,
+      "explanation": "Omitted audit procedures create detection risk.",
+      "source": "Instructor risk assessment scenarios",
+      "kind": "Scenario"
+    },
+    {
+      "id": "q42",
+      "lo": "LO3",
+      "prompt": "Small high-value microchips are especially susceptible to theft even before controls. Which component?",
+      "choices": [
+        "Inherent risk",
+        "Detection risk",
+        "Audit program",
+        "Sampling strategy"
+      ],
+      "correct": 0,
+      "explanation": "Vulnerability due to the nature of the inventory is inherent risk.",
+      "source": "Instructor risk assessment scenarios",
+      "kind": "Scenario"
+    },
+    {
+      "id": "q43",
+      "lo": "LO3",
+      "prompt": "When is a misstatement material?",
+      "choices": [
+        "Whenever $1 is wrong",
+        "When it could affect decisions of financial-statement users",
+        "Only when fraud is proven",
+        "Only if the client accepts an adjustment"
+      ],
+      "correct": 1,
+      "explanation": "Materiality reflects significance to users, not an automatic zero-error standard.",
+      "source": "Instructor Ch. 3 materiality note",
+      "kind": "Concept"
+    },
+    {
+      "id": "q44",
+      "lo": "LO3",
+      "prompt": "Using a 5% guideline and normalized pre-tax income of $800,000, the benchmark amount is:",
+      "choices": [
+        "$4,000",
+        "$40,000",
+        "$80,000",
+        "$160,000"
+      ],
+      "correct": 1,
+      "explanation": "$800,000 × 0.05 = $40,000. This is a practice calculation, not a mandatory percentage.",
+      "source": "Instructor Ch. 3 materiality note",
+      "kind": "Calculation"
+    },
+    {
+      "id": "q45",
+      "lo": "LO3",
+      "prompt": "Using a 1% guideline and total revenue of $2,500,000, the benchmark amount is:",
+      "choices": [
+        "$2,500",
+        "$25,000",
+        "$250,000",
+        "$2,500,000"
+      ],
+      "correct": 1,
+      "explanation": "$2,500,000 × 0.01 = $25,000. Rates are instructor worksheet guidelines.",
+      "source": "Instructor Ch. 3 materiality note",
+      "kind": "Calculation"
+    },
+    {
+      "id": "q46",
+      "lo": "LO3",
+      "prompt": "Five misstatements of $15,000 each total:",
+      "choices": [
+        "$15,000",
+        "$50,000",
+        "$60,000",
+        "$75,000"
+      ],
+      "correct": 3,
+      "explanation": "5 × $15,000 = $75,000. Instructor note warns about cumulative errors.",
+      "source": "Instructor Ch. 3 materiality note",
+      "kind": "Calculation"
+    },
+    {
+      "id": "q47",
+      "lo": "LO3",
+      "prompt": "Five uncorrected $15,000 errors are compared with $50,000 overall materiality. The main issue?",
+      "choices": [
+        "Each error is below $50k, so no issue",
+        "Aggregate errors of $75k exceed materiality",
+        "Only largest error matters",
+        "Errors automatically cancel"
+      ],
+      "correct": 1,
+      "explanation": "Total uncorrected misstatements could be material even if individual amounts are not.",
+      "source": "Instructor Ch. 3 materiality note",
+      "kind": "Calculation"
+    },
+    {
+      "id": "q48",
+      "lo": "LO3",
+      "prompt": "Which is a qualitative materiality concern in the instructor notes?",
+      "choices": [
+        "An intentional management misstatement",
+        "A calculator uses commas",
+        "A working paper has a title",
+        "A vendor address is long"
+      ],
+      "correct": 0,
+      "explanation": "Intentional misstatement or earnings management can be significant even at a low dollar amount.",
+      "source": "Instructor Ch. 3 materiality note",
+      "kind": "Concept"
+    },
+    {
+      "id": "q49",
+      "lo": "LO3",
+      "prompt": "Which amount is overall planning materiality applied to?",
+      "choices": [
+        "Each individual employee",
+        "Financial statements as a whole",
+        "Only petty cash",
+        "Only one invoice"
+      ],
+      "correct": 1,
+      "explanation": "Overall materiality applies at financial-statement level; specific materiality may be lower.",
+      "source": "Instructor Ch. 3 materiality note",
+      "kind": "Concept"
+    },
+    {
+      "id": "q50",
+      "lo": "LO3",
+      "prompt": "Which is most likely a substantive procedure rather than a test of controls?",
+      "choices": [
+        "Check whether approval initials exist",
+        "Observe segregation of duties",
+        "Confirm the accounts receivable balance with a customer",
+        "Inspect credit-approval policy"
+      ],
+      "correct": 2,
+      "explanation": "A/R confirmation provides evidence about a balance, whereas control tests assess operation.",
+      "source": "Messier Ch. 3 slides",
+      "kind": "Concept"
+    },
+    {
+      "id": "q51",
+      "lo": "LO3",
+      "prompt": "A process used to understand business transaction processing systems and controls is:",
+      "choices": [
+        "Risk assessment program",
+        "Closing entries",
+        "Dividend distribution",
+        "Payroll remittance"
+      ],
+      "correct": 0,
+      "explanation": "The instructor’s Chapter 5 notes distinguish risk assessment programs from control and balance audit programs.",
+      "source": "Instructor Ch. 5 notes",
+      "kind": "Concept"
+    },
+    {
+      "id": "q52",
+      "lo": "LO3",
+      "prompt": "What is the formula for planned detection risk?",
+      "choices": [
+        "DR = AR ÷ (IR × CR)",
+        "DR = AR × IR × CR",
+        "DR = IR + CR",
+        "DR = AR − IR"
+      ],
+      "correct": 0,
+      "explanation": "Rearrange AR = IR × CR × DR: divide target AR by IR × CR.",
+      "source": "Messier Ch. 4 slides",
+      "kind": "Calculation"
+    },
+    {
+      "id": "q53",
+      "lo": "LO3",
+      "prompt": "Target AR is 5%, IR is 80%, and CR is 50%. Planned DR is approximately:",
+      "choices": [
+        "2%",
+        "12.5%",
+        "40%",
+        "80%"
+      ],
+      "correct": 1,
+      "explanation": "DR = 0.05/(0.80 × 0.50) = 0.125 = 12.5%. Practice values made for this quiz.",
+      "source": "Messier Ch. 4 slides",
+      "kind": "Calculation"
+    },
+    {
+      "id": "q54",
+      "lo": "LO4",
+      "prompt": "A recorded sale never occurred. Which transaction assertion is violated?",
+      "choices": [
+        "Occurrence",
+        "Completeness",
+        "Cutoff",
+        "Presentation"
+      ],
+      "correct": 0,
+      "explanation": "Occurrence means recorded transactions actually happened.",
+      "source": "Instructor Ch. 5 notes",
+      "kind": "Concept"
+    },
+    {
+      "id": "q55",
+      "lo": "LO4",
+      "prompt": "Goods were shipped, but no sale was recorded. Which assertion is most directly threatened?",
+      "choices": [
+        "Classification",
+        "Completeness",
+        "Accuracy",
+        "Rights and obligations"
+      ],
+      "correct": 1,
+      "explanation": "Completeness asks whether all relevant transactions were recorded.",
+      "source": "Instructor Ch. 5 notes",
+      "kind": "Concept"
+    },
+    {
+      "id": "q56",
+      "lo": "LO4",
+      "prompt": "A December sale was recorded in January. Which assertion?",
+      "choices": [
+        "Existence",
+        "Cutoff",
+        "Rights and obligations",
+        "Authorization"
+      ],
+      "correct": 1,
+      "explanation": "Cutoff checks the correct accounting period.",
+      "source": "Instructor Ch. 5 notes",
+      "kind": "Concept"
+    },
+    {
+      "id": "q57",
+      "lo": "LO4",
+      "prompt": "An invoice records the correct sale at the wrong amount. Which assertion?",
+      "choices": [
+        "Accuracy",
+        "Presentation",
+        "Existence",
+        "Completeness"
+      ],
+      "correct": 0,
+      "explanation": "Accuracy concerns the recorded amounts and data.",
+      "source": "Instructor Ch. 5 notes",
+      "kind": "Concept"
+    },
+    {
+      "id": "q58",
+      "lo": "LO4",
+      "prompt": "The company reports inventory it does not own. Which balance assertion?",
+      "choices": [
+        "Rights and obligations",
+        "Completeness",
+        "Cutoff",
+        "Occurrence"
+      ],
+      "correct": 0,
+      "explanation": "Rights and obligations asks whether the company holds rights to assets.",
+      "source": "Instructor Ch. 5 notes",
+      "kind": "Concept"
+    },
+    {
+      "id": "q59",
+      "lo": "LO4",
+      "prompt": "Accounts receivable may be uncollectible. Which assertion is at issue?",
+      "choices": [
+        "Existence only",
+        "Valuation",
+        "Cutoff",
+        "Presentation only"
+      ],
+      "correct": 1,
+      "explanation": "Valuation addresses whether an asset is stated at an appropriate amount.",
+      "source": "Instructor Ch. 5 notes",
+      "kind": "Concept"
+    },
+    {
+      "id": "q60",
+      "lo": "LO4",
+      "prompt": "A company records equipment that does not physically exist. Which balance assertion?",
+      "choices": [
+        "Classification",
+        "Existence",
+        "Completeness",
+        "Presentation"
+      ],
+      "correct": 1,
+      "explanation": "Existence asks whether reported assets really exist.",
+      "source": "Instructor Ch. 5 notes",
+      "kind": "Concept"
+    },
+    {
+      "id": "q61",
+      "lo": "LO4",
+      "prompt": "Which assertion is concerned with recording information in the correct account?",
+      "choices": [
+        "Classification",
+        "Cutoff",
+        "Occurrence",
+        "Completeness"
+      ],
+      "correct": 0,
+      "explanation": "Classification means assigning items to correct accounts.",
+      "source": "Instructor Ch. 5 notes",
+      "kind": "Concept"
+    },
+    {
+      "id": "q62",
+      "lo": "LO4",
+      "prompt": "What does sufficiency of audit evidence measure?",
+      "choices": [
+        "Quality",
+        "Quantity",
+        "Client profitability",
+        "Audit fees"
+      ],
+      "correct": 1,
+      "explanation": "Sufficiency is the amount of evidence obtained.",
+      "source": "Highlighted glossary",
+      "kind": "Concept"
+    },
+    {
+      "id": "q63",
+      "lo": "LO4",
+      "prompt": "What does appropriateness of audit evidence measure?",
+      "choices": [
+        "Quality: relevance and reliability",
+        "Number of documents",
+        "Number of staff",
+        "Size of the client"
+      ],
+      "correct": 0,
+      "explanation": "Appropriateness measures relevance and reliability.",
+      "source": "Highlighted glossary",
+      "kind": "Concept"
+    },
+    {
+      "id": "q64",
+      "lo": "LO4",
+      "prompt": "Which is generally more persuasive for cash than management’s oral claim?",
+      "choices": [
+        "Direct bank confirmation received by auditor",
+        "Management verbal assurance",
+        "Unverified internal memo",
+        "An unsigned prediction"
+      ],
+      "correct": 0,
+      "explanation": "Direct independent external evidence generally carries greater reliability.",
+      "source": "Instructor Ch. 5 notes",
+      "kind": "Concept"
+    },
+    {
+      "id": "q65",
+      "lo": "LO4",
+      "prompt": "Vouching starts from:",
+      "choices": [
+        "Source document and moves to ledger",
+        "Ledger/record and moves back to supporting source",
+        "Bank and ends with cash count",
+        "Audit report and ends in materiality"
+      ],
+      "correct": 1,
+      "explanation": "Vouch from accounting record to source to test occurrence/existence.",
+      "source": "Instructor Ch. 5 notes",
+      "kind": "Concept"
+    },
+    {
+      "id": "q66",
+      "lo": "LO4",
+      "prompt": "Tracing starts from:",
+      "choices": [
+        "Source document and moves to accounting record",
+        "Recorded ledger back to source",
+        "A materiality worksheet",
+        "The auditor’s signed opinion"
+      ],
+      "correct": 0,
+      "explanation": "Trace from source to ledger to test completeness.",
+      "source": "Instructor Ch. 5 notes",
+      "kind": "Concept"
+    },
+    {
+      "id": "q67",
+      "lo": "LO4",
+      "prompt": "Auditor starts with sales journal entries and checks shipment documents. This is:",
+      "choices": [
+        "Tracing / completeness",
+        "Vouching / occurrence",
+        "Observation / valuation",
+        "Inquiry / presentation"
+      ],
+      "correct": 1,
+      "explanation": "Ledger-to-source is vouching, typically supporting occurrence.",
+      "source": "Instructor Ch. 5 notes",
+      "kind": "Scenario"
+    },
+    {
+      "id": "q68",
+      "lo": "LO4",
+      "prompt": "Auditor starts with shipping documents and checks that every item appears in sales journal. This is:",
+      "choices": [
+        "Vouching / existence",
+        "Tracing / completeness",
+        "Confirmation / rights",
+        "Recalculation / accuracy"
+      ],
+      "correct": 1,
+      "explanation": "Source-to-ledger is tracing and addresses completeness.",
+      "source": "Instructor Ch. 5 notes",
+      "kind": "Scenario"
+    },
+    {
+      "id": "q69",
+      "lo": "LO4",
+      "prompt": "Auditor physically counts inventory items. Which procedure?",
+      "choices": [
+        "Inspection",
+        "Inquiry",
+        "Engagement letter",
+        "Statistical sampling"
+      ],
+      "correct": 0,
+      "explanation": "Physical inspection is firsthand examination/count.",
+      "source": "Instructor Ch. 5 notes",
+      "kind": "Concept"
+    },
+    {
+      "id": "q70",
+      "lo": "LO4",
+      "prompt": "Auditor watches employees follow a cash-handling procedure. Which technique?",
+      "choices": [
+        "Recalculation",
+        "Observation",
+        "Vouching",
+        "Confirmation"
+      ],
+      "correct": 1,
+      "explanation": "Observation means watching a procedure being performed.",
+      "source": "Messier Ch. 5 slides",
+      "kind": "Concept"
+    },
+    {
+      "id": "q71",
+      "lo": "LO4",
+      "prompt": "Auditor independently checks the math behind depreciation expense. Which technique?",
+      "choices": [
+        "Recalculation",
+        "Tracing",
+        "Observation",
+        "Scanning"
+      ],
+      "correct": 0,
+      "explanation": "Recalculation checks mathematical accuracy.",
+      "source": "Messier Ch. 5 slides",
+      "kind": "Concept"
+    },
+    {
+      "id": "q72",
+      "lo": "LO4",
+      "prompt": "Auditor independently executes a company control again. Which procedure?",
+      "choices": [
+        "Reperformance",
+        "Inquiry",
+        "Confirmation",
+        "Analytical comparison"
+      ],
+      "correct": 0,
+      "explanation": "Reperformance is independent execution of a procedure/control.",
+      "source": "Highlighted glossary",
+      "kind": "Concept"
+    },
+    {
+      "id": "q73",
+      "lo": "LO4",
+      "prompt": "Auditor writes to a customer who replies directly about their balance. This is:",
+      "choices": [
+        "External confirmation",
+        "Observation",
+        "Scanning",
+        "Review of internal memo"
+      ],
+      "correct": 0,
+      "explanation": "External confirmation is a direct written reply from a third party to the auditor.",
+      "source": "Messier Ch. 5 slides",
+      "kind": "Concept"
+    },
+    {
+      "id": "q74",
+      "lo": "LO4",
+      "prompt": "Comparing current and prior-year ratios to investigate unusual fluctuations is:",
+      "choices": [
+        "Analytical procedures",
+        "Only physical inspection",
+        "An engagement letter",
+        "Segregation of duties"
+      ],
+      "correct": 0,
+      "explanation": "Analytical procedures investigate relationships and unexpected differences.",
+      "source": "Highlighted glossary",
+      "kind": "Concept"
+    },
+    {
+      "id": "q75",
+      "lo": "LO4",
+      "prompt": "Auditor quickly reviews a ledger for unusually large entries. This is:",
+      "choices": [
+        "Scanning",
+        "Reperformance",
+        "Cutoff",
+        "Rights and obligations"
+      ],
+      "correct": 0,
+      "explanation": "Scanning looks for unusual items and often prompts more testing.",
+      "source": "Instructor Ch. 5 notes",
+      "kind": "Concept"
+    },
+    {
+      "id": "q76",
+      "lo": "LO4",
+      "prompt": "Which is an example of a permanent audit file item?",
+      "choices": [
+        "Company articles of incorporation",
+        "Only current-year payroll working papers",
+        "A current-year adjusted trial balance",
+        "Current-year audit opinion only"
+      ],
+      "correct": 0,
+      "explanation": "Permanent files include long-lived material useful across years.",
+      "source": "Instructor Ch. 5 notes",
+      "kind": "Concept"
+    },
+    {
+      "id": "q77",
+      "lo": "LO4",
+      "prompt": "Which belongs more naturally in the current-year audit file?",
+      "choices": [
+        "Current audit plan and adjusting journal entries",
+        "An indefinite corporate charter only",
+        "Only a prior-year engagement letter",
+        "Never any supporting schedules"
+      ],
+      "correct": 0,
+      "explanation": "Current files contain this year’s audit plan, work, results and statements.",
+      "source": "Messier Ch. 5 slides",
+      "kind": "Concept"
+    },
+    {
+      "id": "q78",
+      "lo": "LO4",
+      "prompt": "The document listing audit procedures to perform is called:",
+      "choices": [
+        "Audit program",
+        "Client financial statement",
+        "Management budget",
+        "Permanent file index"
+      ],
+      "correct": 0,
+      "explanation": "An audit program is the planned list of procedures.",
+      "source": "Instructor Ch. 5 notes",
+      "kind": "Concept"
+    },
+    {
+      "id": "q79",
+      "lo": "LO4",
+      "prompt": "What does “PBC” mark on a working paper?",
+      "choices": [
+        "Prepared by client",
+        "Posted before closing",
+        "Professional board control",
+        "Planning budget complete"
+      ],
+      "correct": 0,
+      "explanation": "Instructor notes require marking client-prepared working papers PBC.",
+      "source": "Instructor Ch. 5 notes",
+      "kind": "Concept"
+    },
+    {
+      "id": "q80",
+      "lo": "LO4",
+      "prompt": "What should a tick-mark legend do?",
+      "choices": [
+        "Explain shorthand procedures marked on working papers",
+        "Calculate audit fees",
+        "Sign the final opinion",
+        "Authorize payroll payments"
+      ],
+      "correct": 0,
+      "explanation": "Tick marks represent completed procedures and need a legend.",
+      "source": "Instructor Ch. 5 notes",
+      "kind": "Concept"
+    },
+    {
+      "id": "q81",
+      "lo": "LO4",
+      "prompt": "A lead sheet in an audit section usually:",
+      "choices": [
+        "Summarizes section account balances linking to financial statements",
+        "Is the employee roster",
+        "Contains only contact details",
+        "Replaces all testing"
+      ],
+      "correct": 0,
+      "explanation": "Lead sheets aggregate accounts in a section and link work to the financial statements.",
+      "source": "Instructor Ch. 5 notes",
+      "kind": "Concept"
+    },
+    {
+      "id": "q82",
+      "lo": "LO4",
+      "prompt": "Which statement about evidence is supported by Chapter 5 slides?",
+      "choices": [
+        "Higher assessed risk generally requires more evidence",
+        "Evidence quality never matters",
+        "All oral answers are definitive",
+        "Less reliable evidence is always sufficient"
+      ],
+      "correct": 0,
+      "explanation": "Sufficiency depends on risk and quality of available evidence.",
+      "source": "Messier Ch. 5 slides",
+      "kind": "Concept"
+    },
+    {
+      "id": "q83",
+      "lo": "LO4",
+      "prompt": "An external document sent to the auditor directly is generally:",
+      "choices": [
+        "More reliable than an unsupported internal statement",
+        "Always irrelevant",
+        "Never documentary evidence",
+        "Identical to verbal inquiry"
+      ],
+      "correct": 0,
+      "explanation": "Independent external evidence is normally more reliable, provided it is relevant.",
+      "source": "Instructor Ch. 5 notes",
+      "kind": "Concept"
+    },
+    {
+      "id": "q84",
+      "lo": "LO5",
+      "prompt": "Internal control is designed to provide:",
+      "choices": [
+        "Absolute assurance of zero errors",
+        "Reasonable assurance about reporting, operations and compliance",
+        "Only audited forecasts",
+        "Only corporate tax advice"
+      ],
+      "correct": 1,
+      "explanation": "The highlighted glossary lists three objectives: reporting, operations and compliance.",
+      "source": "Highlighted glossary",
+      "kind": "Concept"
+    },
+    {
+      "id": "q85",
+      "lo": "LO5",
+      "prompt": "Which is a company internal control rather than an auditor’s test?",
+      "choices": [
+        "Credit manager signs approvals on orders",
+        "Auditor samples orders for signatures",
+        "Auditor recalculates a balance",
+        "Auditor confirms customers"
+      ],
+      "correct": 0,
+      "explanation": "Management’s approval step is the control; the auditor may test it.",
+      "source": "Messier Ch. 3 slides",
+      "kind": "Concept"
+    },
+    {
+      "id": "q86",
+      "lo": "LO5",
+      "prompt": "Which is a test of controls?",
+      "choices": [
+        "Auditor checks a sample of sales orders for credit-approval initials",
+        "Auditor estimates the sales price",
+        "Auditor adds liabilities to assets",
+        "Client posts adjusting entries"
+      ],
+      "correct": 0,
+      "explanation": "Checking control signoffs tests whether the client operated an approval control.",
+      "source": "Messier Ch. 3 slides",
+      "kind": "Concept"
+    },
+    {
+      "id": "q87",
+      "lo": "LO5",
+      "prompt": "Why separate the shipping and billing functions?",
+      "choices": [
+        "To reduce risk from incompatible duties",
+        "To eliminate all audit evidence",
+        "To ensure any revenue is recognized early",
+        "To prevent the use of sales invoices"
+      ],
+      "correct": 0,
+      "explanation": "Separation of duties makes unauthorized or erroneous processing less likely.",
+      "source": "Messier Ch. 3 slides",
+      "kind": "Concept"
+    },
+    {
+      "id": "q88",
+      "lo": "LO5",
+      "prompt": "A deficiency in internal control can exist when:",
+      "choices": [
+        "A needed control is missing",
+        "Employees receive paychecks",
+        "The auditor uses a laptop",
+        "An income statement is prepared"
+      ],
+      "correct": 0,
+      "explanation": "The glossary defines deficiencies to include missing or ineffective controls.",
+      "source": "Highlighted glossary",
+      "kind": "Concept"
+    },
+    {
+      "id": "q89",
+      "lo": "LO5",
+      "prompt": "A payroll exception report flags duplicate account numbers, but clerks can self-dismiss it. The issue is:",
+      "choices": [
+        "Weak approval/monitoring control",
+        "Appropriate external confirmation",
+        "Financial statement presentation only",
+        "A perfectly operating control"
+      ],
+      "correct": 0,
+      "explanation": "Controls did not require independent investigation/authorization to clear warnings.",
+      "source": "Instructor risk assessment scenarios",
+      "kind": "Scenario"
+    },
+    {
+      "id": "q90",
+      "lo": "LO5",
+      "prompt": "The company control requires credit approval; the auditor observes whether it is applied. This is most directly:",
+      "choices": [
+        "A test of controls",
+        "A tax computation",
+        "A final audit opinion",
+        "A capital budgeting test"
+      ],
+      "correct": 0,
+      "explanation": "Auditor’s observation of implementation tests operation of the control.",
+      "source": "Messier Ch. 3 slides",
+      "kind": "Concept"
+    },
+    {
+      "id": "q91",
+      "lo": "LO5",
+      "prompt": "A substantive procedure differs from a test of controls because it aims to:",
+      "choices": [
+        "Detect misstatements in financial information",
+        "Write company policy",
+        "Appoint the board",
+        "Complete employee performance reviews"
+      ],
+      "correct": 0,
+      "explanation": "Substantive testing targets potential misstatement at the assertion level.",
+      "source": "Highlighted glossary",
+      "kind": "Concept"
+    },
+    {
+      "id": "q92",
+      "lo": "LO5",
+      "prompt": "A manager routinely overrides inventory controls. What happens to assessed control risk?",
+      "choices": [
+        "It is likely higher",
+        "It must be zero",
+        "It is unaffected in all cases",
+        "It becomes equal to audit fees"
+      ],
+      "correct": 0,
+      "explanation": "Override without review threatens whether controls prevent or detect errors.",
+      "source": "Instructor risk assessment scenarios",
+      "kind": "Concept"
+    },
+    {
+      "id": "q93",
+      "lo": "LO5",
+      "prompt": "Which is an example of monitoring of controls?",
+      "choices": [
+        "Periodically assess control effectiveness and correct problems",
+        "Never review exceptions",
+        "Let staff bypass every warning",
+        "Skip internal reports"
+      ],
+      "correct": 0,
+      "explanation": "The highlighted glossary defines monitoring as checking operation over time and taking corrective action.",
+      "source": "Highlighted glossary",
+      "kind": "Concept"
+    },
+    {
+      "id": "q94",
+      "lo": "LO5",
+      "prompt": "What is “control environment” in the instructor’s MCQ context?",
+      "choices": [
+        "Management’s/governance’s attitude and actions toward control",
+        "Just the accounting computer hardware",
+        "The physical warehouse temperature",
+        "Number of bank confirmations"
+      ],
+      "correct": 0,
+      "explanation": "The broader audit material describes the control environment as governance and management commitment to controls.",
+      "source": "Highlighted glossary",
+      "kind": "Concept"
+    }
+  ]
+}

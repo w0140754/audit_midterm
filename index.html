@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0b1119">
+  <meta name="description" content="Unofficial ADTG 220 auditing midterm study app: highlighted glossary, flashcards, quizzes, risk scenarios and study notes.">
+  <title>AuditLab — ADTG 220 Midterm Prep</title>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to study content</a>
+  <div class="app-shell">
+    <aside class="sidebar" id="sidebar" aria-label="Main navigation">
+      <div class="brand-row">
+        <div class="brand-icon" aria-hidden="true"><span>A</span><span class="brand-star">✳</span></div>
+        <div><div class="brand-name">Audit<span>Lab</span></div><div class="brand-caption">YOUR STUDY SPACE</div></div>
+      </div>
+      <div class="course-tile"><div class="course-top">CURRENT COURSE <span class="course-status"></span></div><div class="course-id">ADTG 220</div><div class="course-text">Auditing · Midterm</div><div class="course-lo">Learning outcomes 1–5</div></div>
+      <p class="side-caption">WORKSPACE</p>
+      <nav class="nav" id="mainNav">
+        <a href="#home" data-view="home" class="nav-link is-active"><span class="nav-symbol" aria-hidden="true">◫</span><span>Overview</span></a>
+        <a href="#cards" data-view="cards" class="nav-link"><span class="nav-symbol" aria-hidden="true">▣</span><span>Flashcards</span><span class="nav-count">91</span></a>
+        <a href="#quiz" data-view="quiz" class="nav-link"><span class="nav-symbol" aria-hidden="true">◈</span><span>Practice quiz</span></a>
+        <a href="#cases" data-view="cases" class="nav-link"><span class="nav-symbol" aria-hidden="true">◇</span><span>Risk scenarios</span></a>
+        <a href="#guide" data-view="guide" class="nav-link"><span class="nav-symbol" aria-hidden="true">☷</span><span>Study notes</span></a>
+        <a href="#glossary" data-view="glossary" class="nav-link"><span class="nav-symbol" aria-hidden="true">≡</span><span>Glossary library</span></a>
+      </nav>
+      <div class="side-bottom">
+        <div class="tipline"><span class="tip-dot">✦</span><span>Built from your instructor’s notes and highlighted glossary.</span></div>
+        <div class="privacyline">Progress stays in this browser. <span>No account needed.</span></div>
+      </div>
+    </aside>
+    <div class="content-shell">
+      <header class="topbar">
+        <button class="mobile-menu icon-button" id="menuButton" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+        <div class="breadcrumb"><span>ADTG 220</span><span class="chevron">/</span><span id="crumbPage">Overview</span></div>
+        <div class="top-actions"><span class="top-pill"><span class="pill-dot"></span> MIDTERM PREP</span><span class="date-mark">Friday, Oct 16</span></div>
+      </header>
+      <main id="main" class="main" tabindex="-1"><div class="loading">Loading study space…</div></main>
+      <footer class="footer"><span>AuditLab <span class="footer-muted">· Unofficial ADTG 220 student resource</span></span><span>Based on supplied course materials · Not an official exam outline</span></footer>
+    </div>
+  </div>
+  <div class="modal-root" id="modalRoot"></div>
+  <div class="toast-region" id="toast" role="status" aria-live="polite"></div>
+  <script src="data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
